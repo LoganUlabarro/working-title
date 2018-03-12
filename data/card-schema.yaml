@@ -12,7 +12,7 @@ rarity:
   - uncommon: 2
   - rare: 3
 types:
-  - attack
+  - attack:
     - physical
     - magical
     - finesse
