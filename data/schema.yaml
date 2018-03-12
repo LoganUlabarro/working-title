@@ -1,4 +1,4 @@
-classes:
+class:
   - generic
   - paladin
   - druid
@@ -7,7 +7,7 @@ classes:
   - spellblade
   - monk
   - artificer
-rarities:
+rarity:
   - common
   - uncommon
   - rare
@@ -18,7 +18,7 @@ types:
   - loot
   - equipment
   - react
-costs:
+cost:
 - 0
 - 1
 - 2
