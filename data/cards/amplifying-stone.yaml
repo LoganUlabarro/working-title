@@ -1,0 +1,11 @@
+uuid: d18b6a67-d8f6-418b-9d20-b1d3d857a462
+name: Amplifying Stone
+class: mage
+rarity: uncommon
+cost: -1
+types:
+  - item
+  - react
+description:
+  - 'Your next Magical Attack deals X additional damage.'
+  - 'You may not use any Attack cards until your next End Step.'
