@@ -6,4 +6,7 @@ cost: 0
 types:
   - attack-physical
   - masterwork
-description: a description
+description:
+  - 'line 1.'
+  - 'line 2.'
+
