@@ -1,0 +1,8 @@
+uuid: 8a507364-f4c0-42f2-b775-8d5f8b62b817
+name: a name
+class: generic
+rarity: common
+cost: 0
+types:
+  - attack
+description: a description
