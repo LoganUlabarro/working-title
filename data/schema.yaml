@@ -13,6 +13,9 @@ rarity:
   - rare
 types:
   - attack
+    - physical
+    - magical
+    - finesse
   - masterwork
   - item
   - loot

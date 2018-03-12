@@ -4,6 +4,6 @@ class: generic
 rarity: common
 cost: 0
 types:
-  - attack
+  - attack-physical
   - masterwork
 description: a description
