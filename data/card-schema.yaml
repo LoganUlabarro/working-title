@@ -1,0 +1,35 @@
+class:
+  - generic
+  - paladin
+  - druid
+  - fighter
+  - rogue
+  - spellblade
+  - monk
+  - artificer
+rarity:
+  - common: 1
+  - uncommon: 2
+  - rare: 3
+types:
+  - attack
+    - physical
+    - magical
+    - finesse
+  - masterwork
+  - item
+  - loot
+  - equipment
+  - react
+cost:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- -1
