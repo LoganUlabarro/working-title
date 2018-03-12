@@ -5,4 +5,5 @@ rarity: common
 cost: 0
 types:
   - attack
+  - masterwork
 description: a description
