@@ -1,0 +1,11 @@
+name: Bash
+class: warrior
+rarity: common
+cost: 4
+types:
+  - attack-physical
+  - basic
+description:
+  - 'Deal 6 damage to an adjacent enemy.'
+  - 'Push that enemy backwards one tile if able.'
+  
