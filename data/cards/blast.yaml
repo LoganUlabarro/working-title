@@ -1,11 +1,8 @@
-name: Blast
 class: generic
-rarity: common
 cost: 2
-types:
-  - attack-magical
-  - basic
-description:
-  - 'Range 2.'
-  - 'Deal 2 damage to target unit.'
-   
+description: [Range 2., Deal 2 damage to target unit.]
+name: Blast
+rarity: common
+types: [attack-magical, basic]
+uuid: 1ab3c191-0711-477a-97bb-25038ad218a9
+version: 1

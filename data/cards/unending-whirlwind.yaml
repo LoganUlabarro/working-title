@@ -1,9 +1,9 @@
-name: Unending Whirlwind
 class: warrior
-rarity: common
 cost: 4
-types:
-  - attack-physical
-description:
-  - 'Deal 2 damage to all adjacent units.'
-  - 'During your next upkeep, deal 2 damage to all adjacent units.'
+description: [Deal 2 damage to all adjacent units., 'During your next upkeep, deal
+    2 damage to all adjacent units.']
+name: Unending Whirlwind
+rarity: common
+types: [attack-physical]
+uuid: fdf9baec-05ed-41e8-9a02-e12f292d42ec
+version: 1

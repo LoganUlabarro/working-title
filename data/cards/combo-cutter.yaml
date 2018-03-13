@@ -1,10 +1,9 @@
-name: Combo Cutter
 class: generic
-rarity: common
 cost: 2
-types:
-  - attack-finesse
-description:
-  - 'Deal 1 damage to an adjacent foe.'
-  - 'If this is the 3nd attack card you have used this turn, deal 4 damage instead.'
-   
+description: [Deal 1 damage to an adjacent foe., 'If this is the 3nd attack card you
+    have used this turn, deal 4 damage instead.']
+name: Combo Cutter
+rarity: common
+types: [attack-finesse]
+uuid: b9023494-ed3d-4e80-822e-18c9a1144d64
+version: 1

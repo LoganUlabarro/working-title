@@ -1,9 +1,9 @@
-name: Deathward
 class: mage
-rarity: common
 cost: 2
-types:
-  - equipment
-description:
-  - 'If you would take a lethal blow, you may destroy this equipment.'
-  - 'If you do, then set your Health to 5.'
+description: ['If you would take a lethal blow, you may destroy this equipment.',
+  'If you do, then set your Health to 5.']
+name: Deathward
+rarity: common
+types: [equipment]
+uuid: 8ed73c51-03d7-4c2b-ab0b-50e6ff036621
+version: 1

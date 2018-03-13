@@ -1,12 +1,9 @@
-name: Barrage
 class: generic
-rarity: rare
 cost: 4
-types:
-  - attack-finesse
-description:
-  - 'Range 2.'
-  - 'Discard your hand.'
-  - 'Deal damage to target enemy equal to the number of cards you discarded.'
-  - 'Draw 2 cards'
-   
+description: [Range 2., Discard your hand., Deal damage to target enemy equal to the
+    number of cards you discarded., Draw 2 cards]
+name: Barrage
+rarity: rare
+types: [attack-finesse]
+uuid: efe689fc-7e38-4363-bb4e-61521a12d383
+version: 1

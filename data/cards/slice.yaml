@@ -1,11 +1,8 @@
-name: Slice
 class: rogue
-rarity: common
 cost: 3
-types:
-  - attack-finesse
-  - basic
-description:
-  - 'Deal 2 damage to an adjacent enemy.'
-  - 'Draw a card.'
-  
+description: [Deal 2 damage to an adjacent enemy., Draw a card.]
+name: Slice
+rarity: common
+types: [attack-finesse, basic]
+uuid: 54912059-bc08-4785-be13-1405ba59f2ad
+version: 1
