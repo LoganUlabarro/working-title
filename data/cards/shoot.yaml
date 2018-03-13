@@ -1,0 +1,12 @@
+name: Shoot
+class: generic
+rarity: common
+cost: 3
+types:
+  - attack-finesse
+  - basic
+description:
+  - 'Range 2.'
+  - 'Range 2.'
+  - 'Deal 3 damage to target.'
+ 

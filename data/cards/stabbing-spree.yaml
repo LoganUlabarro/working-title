@@ -1,0 +1,10 @@
+name: Stabbing Spree
+class: generic
+rarity: uncommon
+cost: 5
+types:
+  - attack-finesse
+description:
+  - 'Deal 2 damage to an adjacent enemy.'
+  - 'Deal 4 damage to a different adjacent enemy.'
+ 
