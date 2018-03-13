@@ -1,11 +1,11 @@
 class: mage
 cost: 5
 description:
-- Add 1 range to all attacks this turn.
+  - Add 1 range to all attacks this turn.
 name: Spell Focus
 rarity: common
 types:
-- item
-- react
-uuid: 004d0109-be54-4f4c-b619-308d8faf5a40
+  - item
+  - react
+uuid: b41392f5-8a96-45cb-9eb4-7084acd4e52a
 version: 1

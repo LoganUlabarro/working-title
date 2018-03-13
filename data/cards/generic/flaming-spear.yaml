@@ -1,12 +1,12 @@
 class: generic
 cost: 6
 description:
-- Line 3.
-- Deal 8 damage to the first unit hit.
-- Deal 0 damage to all subsequent units.
+  - Line 3.
+  - Deal 8 damage to the first unit hit.
+  - Deal 0 damage to all subsequent units.
 name: Flaming Spear
 rarity: rare
 types:
-- attack-magical
-uuid: 1a3d7798-86d5-4ec7-be8d-5c38988ead5f
+  - attack-magical
+uuid: f9b74780-ec72-4c53-8c75-8ba40e416531
 version: 1

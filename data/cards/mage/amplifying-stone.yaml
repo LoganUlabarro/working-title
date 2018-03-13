@@ -1,12 +1,12 @@
 class: mage
 cost: -1
 description:
-- Your next Magical Attack deals X additional damage.
-- You may not use any Attack cards until your next End Step.
+  - Your next Magical Attack deals X additional damage.
+  - You may not use any Attack cards until your next End Step.
 name: Amplifying Stone
 rarity: uncommon
 types:
-- item
-- react
-uuid: 2f7db7f6-36f8-455e-8d12-fca24e0cc16a
+  - item
+  - react
+uuid: bc94ff64-c4e5-4ebf-8477-aa48a4779106
 version: 1

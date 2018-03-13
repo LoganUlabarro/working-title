@@ -1,13 +1,13 @@
 class: generic
 cost: 4
 description:
-- Range 2.
-- Deal 2 damage to target enemy.
-- Deal 2 damage to target enemy.
+  - Range 2.
+  - Deal 2 damage to target enemy.
+  - Deal 2 damage to target enemy.
 name: Magic Missile
 rarity: common
 types:
-- attack-magical
-- basic
-uuid: cebe0e6f-e2b1-47a4-a782-5efd3fcc48df
+  - attack-magical
+  - basic
+uuid: 3dd31a45-974a-4b30-a94e-6f6166a0d3fc
 version: 1

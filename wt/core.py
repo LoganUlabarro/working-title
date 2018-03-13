@@ -7,7 +7,7 @@ from functools import reduce, partial
 from ruamel.yaml import YAML
 import pandas as pd
 
-yaml = YAML(typ='safe')
+yaml = YAML()
 yaml.default_flow_style = False
 yaml.indent(sequence=4, mapping=2, offset=2)
 

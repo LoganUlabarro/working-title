@@ -1,12 +1,12 @@
 class: mage
 cost: 5
 description:
-- Range 3.
-- Deal 4 damage to target unit during your end step. As long as the target enemy hasn't
-  moved further than 3 tiles away from you repeat this process every turn.
+  - Range 3.
+  - Deal 4 damage to target unit during your end step. As long as the target enemy
+    hasn't moved further than 3 tiles away from you repeat this process every turn.
 name: Lightning Link
 rarity: uncommon
 types:
-- attack-magical
-uuid: 8709c063-c42b-4565-b445-6e0142adeddd
+  - attack-magical
+uuid: 2e2ff281-735d-4fc1-83ac-84b422759a0a
 version: 1

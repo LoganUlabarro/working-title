@@ -1,12 +1,12 @@
 class: rogue
 cost: 3
 description:
-- Range 2.
-- Reduce all of the target unit's stats by 1 until the end of your next turn.
+  - Range 2.
+  - Reduce all of the target unit's stats by 1 until the end of your next turn.
 name: Weakening Agent
 rarity: common
 types:
-- item
-- react
-uuid: 4f716dcf-5cec-4256-8533-5942a6a72da4
+  - item
+  - react
+uuid: 50f40deb-8342-484b-b903-8704db52863c
 version: 1

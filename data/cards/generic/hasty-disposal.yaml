@@ -1,13 +1,13 @@
 class: generic
 cost: 0
 description:
-- Range 2.
-- When this card is discarded from your hand, deal 4 damage to target unit.
-- You may pay 4 to discard this card from your hand and draw another card.
-- Playing this card has no effect.
+  - Range 2.
+  - When this card is discarded from your hand, deal 4 damage to target unit.
+  - You may pay 4 to discard this card from your hand and draw another card.
+  - Playing this card has no effect.
 name: Hasty Disposal
 rarity: common
 types:
-- attack-finesse
-uuid: fe0a4dd1-5aa8-4dd0-9479-355fd645fe98
+  - attack-finesse
+uuid: c555fd61-2ce5-4405-b8b9-45a993268af7
 version: 1

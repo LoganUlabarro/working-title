@@ -1,11 +1,11 @@
 class: generic
 cost: 2
 description:
-- Deal 3 damage to an adjacent enemy.
+  - Deal 3 damage to an adjacent enemy.
 name: Cut
 rarity: common
 types:
-- attack-finesse
-- basic
-uuid: 47b1f500-02b7-4b87-809f-3b2082198a7e
+  - attack-finesse
+  - basic
+uuid: 4482f867-c5ac-4064-96c4-07bcf9c715d1
 version: 1

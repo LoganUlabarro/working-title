@@ -1,12 +1,12 @@
 class: fighter
 cost: 4
 description:
-- Deal 6 damage to an adjacent enemy.
-- Push that enemy backwards one tile if able.
+  - Deal 6 damage to an adjacent enemy.
+  - Push that enemy backwards one tile if able.
 name: Bash
 rarity: common
 types:
-- attack-physical
-- basic
-uuid: dd727a16-5acb-4a0c-95ce-02bb77ce8dd3
+  - attack-physical
+  - basic
+uuid: adfe09dd-7966-4eab-84ff-bf62c74c8335
 version: 1

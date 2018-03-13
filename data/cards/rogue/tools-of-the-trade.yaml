@@ -1,12 +1,12 @@
 class: rogue
 cost: 5
 description:
-- Search your Inventory for an item card. Reveal it and put it in your hand.
-- Items with the same name as the revealed card cost 2 less AP to play this turn.
+  - Search your Inventory for an item card. Reveal it and put it in your hand.
+  - Items with the same name as the revealed card cost 2 less AP to play this turn.
 name: Tools of the Trade
 rarity: rare
 types:
-- item
-- react
-uuid: 111b4d06-af2a-4a12-a62d-bd50dd690e48
+  - item
+  - react
+uuid: dfcbbb64-ba49-4e91-98c6-e61d2f94219a
 version: 1

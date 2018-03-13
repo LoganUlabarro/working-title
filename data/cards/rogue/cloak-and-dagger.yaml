@@ -1,13 +1,13 @@
 class: rogue
 cost: 3
 description:
-- As an additional cost to playing this card, you must discard another card.
-- Search your Inventory for up to 2 copies of "Slice" and put them in your hand.
-- Shuffle your Inventory.
+  - As an additional cost to playing this card, you must discard another card.
+  - Search your Inventory for up to 2 copies of "Slice" and put them in your hand.
+  - Shuffle your Inventory.
 name: Cloak and Dagger
 rarity: common
 types:
-- item
-- react
-uuid: 6281f6d9-293a-47d6-a424-1c1bd57a030c
+  - item
+  - react
+uuid: 61ba265c-7db4-4fbd-b157-cd378c794c31
 version: 1

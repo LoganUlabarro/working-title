@@ -1,11 +1,11 @@
 class: mage
 cost: 3
 description:
-- You may put 2 cards from your Discard Pile on top of your Inventory.
+  - You may put 2 cards from your Discard Pile on top of your Inventory.
 name: Tome of the Ancient
 rarity: common
 types:
-- item
-- react
-uuid: c9f8136d-58a2-4dc9-b0b5-15561816135d
+  - item
+  - react
+uuid: 52c6ed7d-2812-4e74-b220-e64e1f27fb7f
 version: 1

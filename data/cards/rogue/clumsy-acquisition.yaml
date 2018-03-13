@@ -1,12 +1,12 @@
 class: rogue
 cost: 3
 description:
-- Draw 3 cards.
-- Discard 2 cards.
+  - Draw 3 cards.
+  - Discard 2 cards.
 name: Clumsy Acquisation
 rarity: common
 types:
-- item
-- react
-uuid: c47107a9-fe82-4e85-9c89-daf5ffbc25d6
+  - item
+  - react
+uuid: 80d4ced0-22b1-4be2-a10a-0d3e781b5bfb
 version: 1

@@ -1,13 +1,13 @@
 class: generic
 cost: 0
 description:
-- Range 2.
-- Deal 2 damage to target enemy.
-- Flip a coin, if it lands on heads you may choose an additional target.
-- If it lands, put 2 bleed status effect cards in your Inventory.
+  - Range 2.
+  - Deal 2 damage to target enemy.
+  - Flip a coin, if it lands on heads you may choose an additional target.
+  - If it lands, put 2 bleed status effect cards in your Inventory.
 name: Multishot
 rarity: rare
 types:
-- attack-finesse
-uuid: a45e7d68-0ff4-4fa9-8be9-99fa6e77cdc1
+  - attack-finesse
+uuid: e7af1f0e-7720-4b57-af42-c0481d9a879e
 version: 1

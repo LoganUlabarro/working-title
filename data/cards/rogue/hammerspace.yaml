@@ -1,10 +1,10 @@
 class: rogue
 cost: 2
 description:
-- Any time you use the last card in your hand, you may draw a card.
+  - Any time you use the last card in your hand, you may draw a card.
 name: Hammerspace
 rarity: common
 types:
-- equipment
-uuid: 3306ccda-ff19-4366-adcf-dd815232a9ea
+  - equipment
+uuid: e731c20d-a77d-4e26-b159-8b3769075502
 version: 1

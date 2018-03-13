@@ -1,10 +1,10 @@
 class: mage
 cost: 2
 description:
-- Any time you use two cards with React in the same turn you may draw a card.
+  - Any time you use two cards with React in the same turn you may draw a card.
 name: Reaction Accelerant
 rarity: common
 types:
-- equipment
-uuid: 0a07a564-b2e8-4233-8c21-45da35df0081
+  - equipment
+uuid: 24973235-013d-4f01-8e10-3b7762e2b2e6
 version: 1

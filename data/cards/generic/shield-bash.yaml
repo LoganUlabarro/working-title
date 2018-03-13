@@ -1,11 +1,11 @@
 class: generic
 cost: 3
 description:
-- Deal 2 damage to an adjacent enemy.
-- If you have more Con than the target unit, then deal 5 damage instead.
+  - Deal 2 damage to an adjacent enemy.
+  - If you have more Con than the target unit, then deal 5 damage instead.
 name: Shield Bash
 rarity: common
 types:
-- attack-physical
-uuid: 34658783-8d9c-4cc0-8f92-cdd4ed7afcb6
+  - attack-physical
+uuid: 30897c2f-0677-42bb-a646-ddef83ca9cf7
 version: 1
