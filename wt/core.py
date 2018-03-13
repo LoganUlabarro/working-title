@@ -177,14 +177,14 @@ def load_cards(directory, schema=schema):
     p = Path(directory)
     files = p.glob('*.yaml')
     cards, errors = [], []
-    for file in files:
+    for idx, file in enumerate(files):
         with open(file, 'r') as fid:
             try:
                 data = validate_card(yaml.load(fid), schema)
                 card = load_card(data, schema)
                 cards.append(card)
             except ValueError as e:
-                errors.append(str(e))
+                errors.append(f'file #{idx}, ' + str(e))
 
     if errors:
         head = f'{len(errors)} errors'
