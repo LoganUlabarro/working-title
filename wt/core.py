@@ -7,7 +7,7 @@ from functools import reduce, partial
 from ruamel.yaml import YAML
 import pandas as pd
 
-yaml = YAML(typ='unsafe')
+yaml = YAML(typ='unsafe', block_seq_indent=2)
 yaml.default_flow_style = False
 yaml.indent(sequence=4, mapping=2, offset=2)
 
@@ -25,7 +25,7 @@ def __batch_prepare_card_uuids_and_versions(path):
             cards.append(doc.copy())
             fid.seek(0)
             fid.truncate()
-            yaml.dump(doc, fid, block_seq_indent=2)
+            yaml.dump(doc, fid)
     return cards
 
 
