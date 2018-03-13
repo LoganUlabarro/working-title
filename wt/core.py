@@ -183,6 +183,8 @@ def load_cards(directory, schema=schema):
                 errors.append(str(e))
 
     if errors:
+        head = f'{len(errors)} errors'
+        errors.insert(0, head)
         raise ValueError('\n'.join(errors))
     return pd.DataFrame(cards)
 
