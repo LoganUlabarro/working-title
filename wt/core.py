@@ -91,24 +91,26 @@ def validate_card(card, schema=schema_path):
         error_strs.append(base_str2 + 'class.')
     else:
         if card['class'] not in schema['class']:
-            error_strs.append(base_str1 + ' invalid class.')
-
+            class_ = card['class']
+            error_strs.append(base_str1 + f' invalid class, {class_}.')
     if 'rarity' not in card:
         error_strs.append(base_str2 + 'rarity.')
     else:
         if card['rarity'] not in schema['rarity'].keys():
-            error_strs.append(base_str1 + ' invalid rarity.')
+            rarity = card['rarity']
+            error_strs.append(base_str1 + f' invalid rarity, {rarity}.')
 
     if 'types' not in card:
         error_strs.append(base_str2 + 'type(s).')
         for type_ in card['types']:
             if type_ not in schema['types']:
-                error_strs.append(base_str1 + ' invalid type.')
+                error_strs.append(base_str1 + f' invalid type, {type_}.')
     if 'cost' not in card:
         error_strs.append(base_str2 + 'cost.')
     else:
         if card['cost'] not in schema['cost']:
-            error_strs.append(base_str1 + 'invalid cost.')
+            cost = card['cost']
+            error_strs.append(base_str1 + f'invalid cost, {cost}.')
     if 'version' not in card:
         error_strs.append(base_str2 + 'version.')
     if 'description' not in card:
@@ -118,7 +120,7 @@ def validate_card(card, schema=schema_path):
             iterator = iter(card['description'])
             for idx, item in enumerate(iterator):
                 if not item.endswith(('.', ',', ')')):
-                    error_strs.append(base_str1 + f' description line {idx+1} improper ending.')
+                    error_strs.append(base_str1 + f' description line {idx+1} improper ending, ...{item[-3:]}')
         except TypeError:
             error_strs.append(base_str1 + 'description is not formatted as an iterable.')
 
