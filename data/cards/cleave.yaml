@@ -5,5 +5,5 @@ cost: 5
 types:
   - attack-physical
 description:
-  - 'Deal 7 damage distributed to any number of adjacent units.'
+  - 'Deal 7 damage distributed to any number of adjacent units'
   - '(For example: 4 damage to one unit and 3 to another.)'
