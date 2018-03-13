@@ -8,7 +8,8 @@ from ruamel.yaml import YAML
 import pandas as pd
 
 yaml = YAML()
-yaml.indent(sequence=2, mapping=2, offset=2)
+yaml.indent(sequence=4, mapping=2, offset=2)
+
 
 def __batch_prepare_card_uuids_and_versions(path):
     import uuid
