@@ -1,0 +1,11 @@
+class: generic
+cost: 2
+description:
+  - Gain the ability to yse the Move 2 and Main 3 phases of combat.
+  - If you take 5 or more damage from a single attack, Destroy Familiar Horse.
+name: Familiar Horse
+rarity: common
+types:
+  - equipment
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1

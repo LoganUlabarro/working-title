@@ -1,0 +1,14 @@
+class: generic
+cost: 2
+description:
+  - Charges 3
+  - 'Spend 2 AP at React speed to consume a charge and do one of the following:'
+  - Draw a card, then discard a card
+  - Reduce incoming damage by 3
+  - Oracle 2
+name: Sack of Tricks
+rarity: common
+types:
+  - equipment
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1

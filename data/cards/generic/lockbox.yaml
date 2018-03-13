@@ -1,0 +1,12 @@
+class: generic
+cost: 2
+description:
+  - Lockbox enters play with 3 Time Counters on it.
+  - During your end step remove a Time Counter from Lockbox.
+  - When there are no Time Counters on Lockbox, destroy it and draw 3 cards.
+name: Lockbox
+rarity: uncommon
+types:
+  - equipment
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1

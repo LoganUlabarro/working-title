@@ -1,0 +1,11 @@
+class: generic
+cost: 4
+description:
+  - You may play any card from your hand for free. If you do, it enters play with X time counters on it, where X is the card's AP cost.
+  - Time counters are removed during your Upkeep step. When the card has no Time counters on it, you must use it's effect.
+name: Temporal Rift
+rarity: uncommon
+types:
+  - equipment
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1

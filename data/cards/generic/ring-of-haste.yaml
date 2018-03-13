@@ -1,0 +1,11 @@
+class: generic
+cost: 4
+description:
+  - All the cards in your hand have React.
+  - Your cards cost 2 more to play during other unit's turns.
+name: Ring of Haste
+rarity: rare
+types:
+  - equipment
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1

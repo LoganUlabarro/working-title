@@ -1,0 +1,10 @@
+class: generic
+cost: 3
+description:
+  - Any time you gain any amount of life you may Oracle 1.
+name: Divine Fetish
+rarity: common
+types:
+  - equipment
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1

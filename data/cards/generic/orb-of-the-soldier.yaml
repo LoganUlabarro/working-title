@@ -1,0 +1,10 @@
+class: generic
+cost: 3
+description:
+  - While Orb of the Soldier is in play, increase your Str and Con by 1.
+name: Orb of the Soldier
+rarity: common
+types:
+  - equipment
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1

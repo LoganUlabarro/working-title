@@ -21,10 +21,12 @@ types:
     - physical
     - magical
     - finesse
+    - true
   - masterwork
   - item
   - loot
   - equipment
+  - relic
   - react
   - full round action
   - basic

@@ -1,0 +1,12 @@
+class: generic
+cost: 2
+description:
+  - Charges 3.
+  - Any time you would draw any number of cards you may Oracle 1 first.
+  - Any time you Oracle a card to the Discard Pile remove 1 charge.
+name: Crystal Ball
+rarity: common
+types:
+  - equipment
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1
