@@ -1,0 +1,10 @@
+name: Sting
+class: generic
+rarity: uncommon
+cost: 0
+types:
+  - attack-physical
+description:
+  - 'Deal 1 True Damage to an adjacent unit.'
+  - 'If this card is discarded from your hand deal 4 True damage instead.'
+  
