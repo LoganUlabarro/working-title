@@ -1,3 +1,4 @@
+name : Draining Strike
 class: generic
 cost: 4
 description: [Deal 3 damage to an adjacent enemy., Heal HP equal to the damage dealt.]

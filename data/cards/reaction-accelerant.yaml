@@ -4,7 +4,6 @@ cost: 2
 description: [Any time you use two cards with React in the same turn you may draw
     a card.]
 name: Reaction Accelerant
-rarity: uncommon
 types: [equipment]
 uuid: aac39df9-72e5-44be-a6d5-72873e749b04
 version: 1
