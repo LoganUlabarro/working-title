@@ -1,11 +1,11 @@
 class: generic
 cost: 2
 description:
-  - Charges 3
+  - Charges 3.
   - 'Spend 2 AP at React speed to consume a charge and do one of the following:'
-  - Draw a card, then discard a card
-  - Reduce incoming damage by 3
-  - Oracle 2
+  - Draw a card, then discard a card.
+  - Reduce incoming damage by 3.
+  - Oracle 2.
 name: Sack of Tricks
 rarity: common
 types:

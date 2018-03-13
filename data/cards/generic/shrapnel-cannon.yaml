@@ -1,7 +1,7 @@
 class: generic
 cost: 0
 description:
-  - Range 3
+  - Range 3.
   - You may pay 3 to destroy an Equipment you control.
   - Any time and Equipment you control is destroyed you may deal 3 true damage to target enemy unit.
 name: Shrapnel Cannon

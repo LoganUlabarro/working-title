@@ -1,7 +1,7 @@
 class: generic
 cost: 0
 description:
-  - Splash
+  - Splash.
   - Put one Time Counter on Pressurized Explosive during your end step.
   - When Pressurized Explosive is destroyed, deal 2 times the Time Counters true damage to yourself and all adjacent units.
 name: Pressurized Explosive
