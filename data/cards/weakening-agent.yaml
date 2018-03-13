@@ -1,10 +1,9 @@
-name: Weakening Agent
 class: rogue
-rarity: common
 cost: 3
-types:
-  - item
-  - react
-description:
-  - 'Range 2.'
-  - 'Reduce all of the target unit''s stats by 1 until the end of your next turn.'
+description: [Range 2., Reduce all of the target unit's stats by 1 until the end of
+    your next turn.]
+name: Weakening Agent
+rarity: common
+types: [item, react]
+uuid: 0ca83085-a741-49db-b06a-f8b8103a2d68
+version: 1

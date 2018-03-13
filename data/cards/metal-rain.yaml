@@ -1,12 +1,9 @@
-name: Metal Rain
 class: generic
-rarity: common
 cost: 5
-types:
-  - attack-finesse
-description:
-  - 'Range 3.'
-  - 'Splash.'
-  - 'Deal 2 damage to all units in the area.'
-  - 'Deal 2 damage to all units in the area.'
- 
+description: [Range 3., Splash., Deal 2 damage to all units in the area., Deal 2 damage
+    to all units in the area.]
+name: Metal Rain
+rarity: common
+types: [attack-finesse]
+uuid: 9166ad66-70a6-4e7d-8912-3826615e547d
+version: 1

@@ -1,9 +1,9 @@
-name: Firestorm
 class: mage
-rarity: rare
 cost: 2
-types:
-  - attack-magical
-description:
-  - 'This card costs 1 more for each card in you hand.'
-  - 'Deal damage to all enemies equal to 2 times the number of cards in your hand.'
+description: [This card costs 1 more for each card in you hand., Deal damage to all
+    enemies equal to 2 times the number of cards in your hand.]
+name: Firestorm
+rarity: rare
+types: [attack-magical]
+uuid: 3c5d7dad-093c-460a-9428-93b93ed1445e
+version: 1

@@ -1,10 +1,9 @@
-name: Flying Kick
 class: generic
-rarity: uncommon
 cost: -1
-types:
-  - attack-physical
-description:
-  - 'Move adjacent to a target enemy X tiles away'
-  - 'Deal 2 times X damage to that target'
-  - 'Deal X damage to yourself'
+description: [Move adjacent to a target enemy X tiles away, Deal 2 times X damage
+    to that target, Deal X damage to yourself]
+name: Flying Kick
+rarity: uncommon
+types: [attack-physical]
+uuid: 17ec5df1-e4b9-4d3a-93a8-1809112b5804
+version: 1

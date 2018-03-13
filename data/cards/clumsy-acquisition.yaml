@@ -1,11 +1,8 @@
-name: Clumsy Acquisation
 class: rogue
-rarity: common
 cost: 3
-types:
-  - item
-  - react
-description:
-  - 'Draw 3 cards.'
-  - 'Discard 2 cards.'
-  
+description: [Draw 3 cards., Discard 2 cards.]
+name: Clumsy Acquisation
+rarity: common
+types: [item, react]
+uuid: a4137c20-3080-4d2d-898f-837d2227f239
+version: 1

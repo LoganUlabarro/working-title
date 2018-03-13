@@ -1,6 +1,4 @@
-name: Erosion Explosion
 class: mage
-rarity: uncommon
 cost: 4
 types:
   - attack-magical

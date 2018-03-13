@@ -1,9 +1,8 @@
-name: Scalding Splash
 class: mage
-rarity: common
 cost: 3
-types:
-  - attack-magical
-description:
-  - 'Deal 4 damage to target unit.'
-  - 'Shuffle 1 copy of Burn into their library.'
+description: [Deal 4 damage to target unit., Shuffle 1 copy of Burn into their library.]
+name: Scalding Splash
+rarity: common
+types: [attack-magical]
+uuid: 1a9a8de4-c394-46c7-91b4-57a80efbc3c4
+version: 1

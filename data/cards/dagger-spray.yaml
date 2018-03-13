@@ -1,10 +1,9 @@
-name: Dagger Spray
 class: rogue
-rarity: rare
 cost: -1
-types:
-  - attack-finesse
-description:
-  - 'Deal 1 damage to an adjacent enemy X times.'
-  - 'You may, as an additional cost, discard 2 cards from your hand. If you do, deal 2 damage instead of 1.'
-  
+description: [Deal 1 damage to an adjacent enemy X times., 'You may, as an additional
+    cost, discard 2 cards from your hand. If you do, deal 2 damage instead of 1.']
+name: Dagger Spray
+rarity: rare
+types: [attack-finesse]
+uuid: 47f77a7c-213d-400d-b97b-b66ffb2ae773
+version: 1

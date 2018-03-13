@@ -1,10 +1,10 @@
-name: Clobber
 class: generic
-rarity: uncommon
 cost: 0
-types:
-  - attack-physical
-description:
-  - 'Deal damage to an adjacent unit equal to your unused AP.'
-  - 'Exhaust all of your Action Points.'
-  - 'If 5 or more AP was expended this way deal 3 additional True Damage.'
+description: [Deal damage to an adjacent unit equal to your unused AP., Exhaust all
+    of your Action Points., If 5 or more AP was expended this way deal 3 additional
+    True Damage.]
+name: Clobber
+rarity: uncommon
+types: [attack-physical]
+uuid: b62fe0af-154e-45ed-89b0-84c9af58d3d2
+version: 1

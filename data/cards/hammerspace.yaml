@@ -1,8 +1,8 @@
-name: Hammerspace
 class: rogue
-rarity: common
 cost: 2
-types:
-  - equipment
-description:
-  - 'Any time you use the last card in your hand, you may draw a card.'
+description: ['Any time you use the last card in your hand, you may draw a card.']
+name: Hammerspace
+rarity: common
+types: [equipment]
+uuid: 45e2b352-83bc-47f7-b99f-b5a2fc81382c
+version: 1

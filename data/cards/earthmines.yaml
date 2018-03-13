@@ -1,6 +1,4 @@
-name: Earthmines
 class: mage
-rarity: common
 cost: 3
 types:
   - attack-magical

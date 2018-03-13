@@ -1,12 +1,9 @@
-name: Flashfire Scroll
 class: generic
-rarity: common
 cost: 3
-types:
-  - attack-magical
-  - item
-description:
-  - 'Choose one:'
-  - 'Deal 1 damage to an enemy 3 tiles away.'
-  - 'Deal 2 damage to an enemy 2 tiles away.'
-  - 'Deal 4 damage to an enemy 1 tiles away.'
+description: ['Choose one:', Deal 1 damage to an enemy 3 tiles away., Deal 2 damage
+    to an enemy 2 tiles away., Deal 4 damage to an enemy 1 tiles away.]
+name: Flashfire Scroll
+rarity: common
+types: [attack-magical, item]
+uuid: 9963af45-19ff-4941-8bc9-403a1c07d1df
+version: 1

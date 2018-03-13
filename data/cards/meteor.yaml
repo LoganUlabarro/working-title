@@ -1,6 +1,4 @@
-name: Meteor
 class: mage
-rarity: common
 cost: 3
 types:
   - basic

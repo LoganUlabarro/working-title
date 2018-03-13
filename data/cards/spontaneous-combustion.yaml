@@ -1,6 +1,5 @@
 name: Spontaneous Combustion
 class: mage
-rarity: common
 cost: 5
 types:
   - attack-magical
