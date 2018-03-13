@@ -1,7 +1,10 @@
 class: mage
 cost: 5
-types:
-  - attack-magical
 description:
-  - 'Range 3.'
-  - 'Deal 4 damage to target unit during your end step. As long as the target enemy hasn''t moved further than 3 tiles away from you repeat this process every turn.'
+- Range 3.
+- Deal 4 damage to target unit during your end step. As long as the target enemy hasn't
+  moved further than 3 tiles away from you repeat this process every turn.
+types:
+- attack-magical
+uuid: 8709c063-c42b-4565-b445-6e0142adeddd
+version: 1

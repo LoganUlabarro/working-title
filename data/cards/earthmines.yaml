@@ -1,8 +1,10 @@
 class: mage
 cost: 3
-types:
-  - attack-magical
 description:
-  - 'Range 3.'
-  - 'Choose 3 unoccupied tiles. They gain the following tile effect.'
-  - 'If a unit moves over this tile deal 3 Magical damage to them.'
+- Range 3.
+- Choose 3 unoccupied tiles. They gain the following tile effect.
+- If a unit moves over this tile deal 3 Magical damage to them.
+types:
+- attack-magical
+uuid: d725bf06-77c2-4896-93e5-a28451ce3e6d
+version: 1

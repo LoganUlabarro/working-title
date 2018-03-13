@@ -1,7 +1,9 @@
 class: mage
 cost: 3
-types:
-  - basic
-  - attack-magical
 description:
-  - 'Deal 5 damage to target enemy at Range 3.'
+- Deal 5 damage to target enemy at Range 3.
+types:
+- basic
+- attack-magical
+uuid: 4643c32f-97d9-4ff2-8b9c-3094389f7b5f
+version: 1

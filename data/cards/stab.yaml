@@ -1,8 +1,11 @@
 class: generic
 cost: 2
-description: [Deal 3 Physical Damage to an adjacent unit.]
+description:
+- Deal 3 Physical Damage to an adjacent unit.
 name: Stab
 rarity: common
-types: [attack-physical, basic]
-uuid: f5874a6c-1dc5-421d-9992-382edc57dbff
+types:
+- attack-physical
+- basic
+uuid: c382a202-326f-4d8d-817d-0083936de465
 version: 1

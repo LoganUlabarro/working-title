@@ -1,9 +1,11 @@
 class: fighter
 cost: 5
-description: [Deal 7 damage distributed to any number of adjacent units., '(For example:
-    4 damage to one unit and 3 to another.)']
+description:
+- Deal 7 damage distributed to any number of adjacent units.
+- '(For example: 4 damage to one unit and 3 to another.)'
 name: Cleave
 rarity: common
-types: [attack-physical]
-uuid: d9473010-73f5-4e65-a4ea-dc0ca9fbff11
+types:
+- attack-physical
+uuid: d35e3fa1-c756-4490-a5c2-9b1e04aaade8
 version: 1

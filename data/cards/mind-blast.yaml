@@ -1,9 +1,11 @@
 class: generic
 cost: 4
-description: [Range 2., Deal damage to target enemy equal to the number of cards in
-    your hand.]
+description:
+- Range 2.
+- Deal damage to target enemy equal to the number of cards in your hand.
 name: Mind Blast
 rarity: common
-types: [attack-magical]
-uuid: 4edc84ee-c520-4a73-a8b9-00c3bb905dff
+types:
+- attack-magical
+uuid: 58059b34-762b-4a88-8598-dc144e43c3b2
 version: 1

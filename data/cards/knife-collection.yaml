@@ -1,9 +1,11 @@
 class: rogue
 cost: 3
-description: ['Any time you discard a card from your hand, you may deal 2 precise
-    damage to target adjacent enemy.']
+description:
+- Any time you discard a card from your hand, you may deal 2 precise damage to target
+  adjacent enemy.
 name: Knife Collection
 rarity: common
-types: [equipment]
-uuid: 4633e69c-2149-4e9e-9a14-38afd0ead305
+types:
+- equipment
+uuid: bafb7b75-ca60-4b4a-8adb-7df2a96fca37
 version: 1

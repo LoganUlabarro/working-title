@@ -1,9 +1,12 @@
 class: mage
 cost: 4
-description: [Line 3, Deal 1 damage to all units., All units hit by this can only
-    move 1 tile during their next turn.]
+description:
+- Line 3
+- Deal 1 damage to all units.
+- All units hit by this can only move 1 tile during their next turn.
 name: Enfrost
 rarity: common
-types: [attack-magical]
-uuid: bd5dd3f5-d851-4558-b049-014c485524b0
+types:
+- attack-magical
+uuid: 03501083-3398-4795-b23f-7812c4dd400d
 version: 1

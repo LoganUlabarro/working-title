@@ -1,9 +1,12 @@
-name: Doublecast
 class: mage
-rarity: common
 cost: 4
-types:
-  - item
-  - react
 description:
-  - 'Play a second copy of your next Non-Masterwork Item or Attack card. You may choose new targets for it.'
+- Play a second copy of your next Non-Masterwork Item or Attack card. You may choose
+  new targets for it.
+name: Doublecast
+rarity: common
+types:
+- item
+- react
+uuid: 92ec0ef4-30fc-45bf-beb3-d7ee899aeaa5
+version: 1

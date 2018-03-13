@@ -1,9 +1,11 @@
 class: rogue
 cost: 4
-description: [Draw an extra card during your upkeep., Reduce your maximum hand size
-    by 2.]
+description:
+- Draw an extra card during your upkeep.
+- Reduce your maximum hand size by 2.
 name: Hidden Pockets
 rarity: common
-types: [equipment]
-uuid: 02864e61-d7ee-4104-b116-8d16151cab0f
+types:
+- equipment
+uuid: 6f1fc4a7-e0e6-4898-bb8e-1a34415aac68
 version: 1

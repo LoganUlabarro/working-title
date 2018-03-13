@@ -1,9 +1,11 @@
-name: Spell Focus
 class: mage
-rarity: common
 cost: 5
-types:
-  - item
-  - react
 description:
-  - 'Add 1 range to all attacks this turn.'
+- Add 1 range to all attacks this turn.
+name: Spell Focus
+rarity: common
+types:
+- item
+- react
+uuid: 004d0109-be54-4f4c-b619-308d8faf5a40
+version: 1

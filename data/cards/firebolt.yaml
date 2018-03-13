@@ -1,9 +1,13 @@
 class: generic
 cost: 3
-description: [Range 3., Splash., Deal 1 damage to all units in the area., Deal 2 extra
-    damage to the unit in the center of the attack.]
+description:
+- Range 3.
+- Splash.
+- Deal 1 damage to all units in the area.
+- Deal 2 extra damage to the unit in the center of the attack.
 name: Firebolt
 rarity: common
-types: [attack-magical]
-uuid: 7efffa56-f504-466a-a8a5-81924e8ae764
+types:
+- attack-magical
+uuid: 4726b3a1-69ac-44c8-aed1-f2e1313b4bcc
 version: 1

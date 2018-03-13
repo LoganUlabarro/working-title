@@ -1,8 +1,10 @@
 class: generic
 cost: 2
-description: [Deal 4 damage to target units 4 tiles away.]
+description:
+- Deal 4 damage to target units 4 tiles away.
 name: Long Bow
 rarity: uncommon
-types: [attack-finesse]
-uuid: 3f0b5237-9e60-4e0f-9809-353473b04c20
+types:
+- attack-finesse
+uuid: b7f75c67-6073-441b-a388-c94765fab3c7
 version: 1

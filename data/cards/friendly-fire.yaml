@@ -1,8 +1,10 @@
 class: mage
 cost: 1
-description: [Your attacks no longer hurt your allies.]
+description:
+- Your attacks no longer hurt your allies.
 name: Friendly Fire
 rarity: common
-types: [equipment]
-uuid: 4d53a512-8b0b-4ffd-a886-d357e2c00144
+types:
+- equipment
+uuid: 4d533680-507e-477c-9a4f-48268fed9d22
 version: 1

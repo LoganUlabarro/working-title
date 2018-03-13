@@ -1,9 +1,12 @@
 class: rogue
 cost: 3
-description: [Range 2., Reveal any number of Finesse attack cards from your hand.
-    Deal damage to target enemy equal to 2 times the number of revealed cards.]
+description:
+- Range 2.
+- Reveal any number of Finesse attack cards from your hand. Deal damage to target
+  enemy equal to 2 times the number of revealed cards.
 name: Headshot
 rarity: uncommon
-types: [attack-finesse]
-uuid: 201fa8f4-6cf9-454e-8880-db9acdeab96b
+types:
+- attack-finesse
+uuid: 76911b00-ca26-4960-8bf8-fe1a41dac76e
 version: 1

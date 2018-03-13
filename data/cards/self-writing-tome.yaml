@@ -1,11 +1,13 @@
-name: Self-Writing Tome
 class: mage
-rarity: uncommon
 cost: 4
-types:
-  - equipment
 description:
-  - 'Charges 0'
-  - 'This card is not destroyed at 0 Charge.'
-  - 'Any time you draw 3 or more cards in a single turn you may add 1 charge.'
-  - 'Gain 1 Int for each Charge on Self-Writing Tome.'
+- Charges 0
+- This card is not destroyed at 0 Charge.
+- Any time you draw 3 or more cards in a single turn you may add 1 charge.
+- Gain 1 Int for each Charge on Self-Writing Tome.
+name: Self-Writing Tome
+rarity: uncommon
+types:
+- equipment
+uuid: 6f4f73a0-2019-49e6-b820-7aa6c87fe83b
+version: 1

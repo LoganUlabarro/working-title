@@ -1,11 +1,12 @@
 class: generic
 cost: 4
 description:
-  - 'Deal 1 damage to an adjacent enemy.'
-  - 'Deal 1 damage to an adjacent enemy.'
-  - 'Deal 1 damage to an adjacent enemy.'
+- Deal 1 damage to an adjacent enemy.
+- Deal 1 damage to an adjacent enemy.
+- Deal 1 damage to an adjacent enemy.
 name: Flurry of Strikes
 rarity: common
-types: [attack-physical]
-uuid: 2c41503b-2d88-4dda-bbcd-a4c91581db04
+types:
+- attack-physical
+uuid: db1f905c-145f-422b-b42a-aa487b02bf13
 version: 1

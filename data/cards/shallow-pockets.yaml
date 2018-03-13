@@ -1,9 +1,12 @@
 class: rogue
 cost: 4
-description: [Draw 4 additional cards during your draw phase., 'At the end of your
-    turn, discard your hand.']
+description:
+- Draw 4 additional cards during your draw phase.
+- At the end of your turn, discard your hand.
 name: Shallow Pockets
 rarity: uncommon
-types: [equipment, masterwork]
-uuid: 1f4f4868-1aa3-456a-ad78-7ff50a06e335
+types:
+- equipment
+- masterwork
+uuid: 8946a1f5-dab6-4956-a244-3bdf443ddbc7
 version: 1

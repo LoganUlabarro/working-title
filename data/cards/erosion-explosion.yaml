@@ -1,9 +1,12 @@
-name: Erosion Explosion
 class: mage
 cost: 4
-types:
-  - attack-magical
 description:
-  - 'Range 2.'
-  - 'Deal 2 damage to target unit.'
-  - 'You may destroy a boon they control. If you do, deal 3 damage to all units adjacent to target unit.'
+- Range 2.
+- Deal 2 damage to target unit.
+- You may destroy a boon they control. If you do, deal 3 damage to all units adjacent
+  to target unit.
+name: Erosion Explosion
+types:
+- attack-magical
+uuid: a4f1d859-4669-4c4c-a280-ded094aec90b
+version: 1

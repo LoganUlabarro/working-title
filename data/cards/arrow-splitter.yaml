@@ -1,9 +1,12 @@
 class: generic
 cost: 4
-description: [Range 2., Deal 2 damage to target unit., Deal 2 damage to the same target
-    unit.]
+description:
+- Range 2.
+- Deal 2 damage to target unit.
+- Deal 2 damage to the same target unit.
 name: Arrow Splitter
 rarity: common
-types: [attack-finesse]
-uuid: b38d48d9-9c0b-4d51-8c2a-9bde83c46351
+types:
+- attack-finesse
+uuid: 101bfd0e-afa9-4876-991a-38105b8a584b
 version: 1

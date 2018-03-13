@@ -1,10 +1,14 @@
 class: generic
 cost: 4
-description: [Range 2., Deal 2 damage to target unit., 'If any units are adjacent
-    to target unit, they take 2 damage,', and Units adjacent to them take 2 damage.,
-  (the same unit can't take damage twice.)]
+description:
+- Range 2.
+- Deal 2 damage to target unit.
+- If any units are adjacent to target unit, they take 2 damage,
+- and Units adjacent to them take 2 damage.
+- (the same unit can't take damage twice.)
 name: Arcing Thunder
 rarity: uncommon
-types: [attack-magical]
-uuid: 8ced6d01-c6e1-4c00-9c83-c8be79a326da
+types:
+- attack-magical
+uuid: 77a65440-6652-4d6d-a78b-41643e93eb59
 version: 1

@@ -1,9 +1,13 @@
 class: rogue
 cost: 4
-description: [Range 3., Blink to any tile adjacent to target enemy within range.,
-  Your next attack this turn will deal 3 extra damage.]
+description:
+- Range 3.
+- Blink to any tile adjacent to target enemy within range.
+- Your next attack this turn will deal 3 extra damage.
 name: Shadowstep
 rarity: uncommon
-types: [item, react]
-uuid: 5786b9e4-1ed9-40ff-ab5f-941428eb2adb
+types:
+- item
+- react
+uuid: 32e5d5b3-e791-4569-aa45-dae5ddc3ffd6
 version: 1

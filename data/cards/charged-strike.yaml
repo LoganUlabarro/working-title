@@ -1,9 +1,11 @@
 class: fighter
 cost: 5
-description: ['During your next upkeep step, you may deal 15 damage to an adjacent
-    unit.', 'Overcharge 3: Deal damage during your next end step instead of your upkeep.']
+description:
+- During your next upkeep step, you may deal 15 damage to an adjacent unit.
+- 'Overcharge 3: Deal damage during your next end step instead of your upkeep.'
 name: Charged Strike
 rarity: uncommon
-types: [attack-physical]
-uuid: 7cfc84a0-8b5f-4748-a571-29e7808f7ebd
+types:
+- attack-physical
+uuid: 43a75979-2fd3-4908-bf86-f72d0d0f77fd
 version: 1

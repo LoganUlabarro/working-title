@@ -1,8 +1,10 @@
 class: generic
 cost: 3
-description: [Deal 2 damage to all adjacent units.]
+description:
+- Deal 2 damage to all adjacent units.
 name: Earthshaker
 rarity: common
-types: [attack-magical]
-uuid: f17e0e27-5d8a-407c-976c-be938957764a
+types:
+- attack-magical
+uuid: f7126765-feec-4cbb-ab9c-9a9098b69ca3
 version: 1

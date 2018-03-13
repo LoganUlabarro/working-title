@@ -1,9 +1,12 @@
 class: generic
 cost: -1
-description: [Move adjacent to a target enemy X tiles away., Deal 2 times X damage
-    to that target., Deal X damage to yourself.]
+description:
+- Move adjacent to a target enemy X tiles away.
+- Deal 2 times X damage to that target.
+- Deal X damage to yourself.
 name: Flying Kick
 rarity: uncommon
-types: [attack-physical]
-uuid: 17ec5df1-e4b9-4d3a-93a8-1809112b5804
+types:
+- attack-physical
+uuid: 04f7c92b-90e6-47cd-a5a5-bf2e57064444
 version: 1

@@ -1,8 +1,10 @@
 class: generic
 cost: 3
-description: [Deal 2 Damage to all adjacent unit.]
+description:
+- Deal 2 Damage to all adjacent unit.
 name: Whirlwind
 rarity: common
-types: [attack-physical]
-uuid: 3d4db6e4-90c8-4fd0-bce7-439cc65259ec
+types:
+- attack-physical
+uuid: aaa4e00b-8bef-4cec-b916-5b8c019882d6
 version: 1

@@ -1,9 +1,10 @@
 class: rogue
 cost: 3
-description: [The third non-loot card you use during your turn costs 3 less AP to
-    play.]
+description:
+- The third non-loot card you use during your turn costs 3 less AP to play.
 name: The Third Dagger
 rarity: uncommon
-types: [equipment]
-uuid: 2e357ae9-ded3-435e-83da-79e94210760a
+types:
+- equipment
+uuid: 63066c5f-18a5-4d0e-950d-d753054e6696
 version: 1

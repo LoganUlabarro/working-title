@@ -1,9 +1,11 @@
 class: generic
 cost: 3
-description: [If you have no other cards in your hand then you may play this card
-    for free., 'You may draw a card, if you do then discard a card.']
+description:
+- If you have no other cards in your hand then you may play this card for free.
+- You may draw a card, if you do then discard a card.
 name: Quick Strike
 rarity: common
-types: [attack-physical]
-uuid: 035b96e4-ed9f-4b03-ac62-8857a77725a0
+types:
+- attack-physical
+uuid: e9bdb79e-bc75-406c-9559-72b01acf9e1d
 version: 1

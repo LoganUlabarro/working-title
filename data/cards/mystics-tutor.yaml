@@ -1,10 +1,12 @@
 class: mage
 cost: 3
-description: [When Mystic's Tutor enters play declare a card type., 'During your upkeep
-    step reveal the top card of your inventory. If it matches the type you declared,
-    you may put it in your hand.']
+description:
+- When Mystic's Tutor enters play declare a card type.
+- During your upkeep step reveal the top card of your inventory. If it matches the
+  type you declared, you may put it in your hand.
 name: Mystic's Tutor
 rarity: common
-types: [equipment]
-uuid: 946314c4-bf53-4aee-8ba2-6dfa6252e96d
+types:
+- equipment
+uuid: 8d7daabf-0b68-4a07-a1d2-014539aaf77e
 version: 1

@@ -1,9 +1,11 @@
 class: generic
 cost: 6
-description: [Deal 8 damage to an adjacent foe., If this Kills an enemy then draw
-    3 cards.]
+description:
+- Deal 8 damage to an adjacent foe.
+- If this Kills an enemy then draw 3 cards.
 name: Coup De Grace
 rarity: common
-types: [attack-finesse]
-uuid: efd35249-ff14-429f-a959-afd830cfc584
+types:
+- attack-finesse
+uuid: c180e152-aab2-4886-80b8-3616d9ab52a2
 version: 1

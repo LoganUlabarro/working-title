@@ -1,9 +1,11 @@
 class: fighter
 cost: 4
-description: [Deal 2 damage to all adjacent units., 'During your next upkeep, deal
-    2 damage to all adjacent units.']
+description:
+- Deal 2 damage to all adjacent units.
+- During your next upkeep, deal 2 damage to all adjacent units.
 name: Unending Whirlwind
 rarity: common
-types: [attack-physical]
-uuid: fdf9baec-05ed-41e8-9a02-e12f292d42ec
+types:
+- attack-physical
+uuid: 138b1d42-05ff-4381-b357-86d5992ce707
 version: 1

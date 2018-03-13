@@ -1,10 +1,12 @@
 class: rogue
 cost: 4
-description: ['When this Equipment comes into play, declare one enemy unit.', 'Any
-    time you would deal damage to that unit, deal an additional 2 damage.', 'Any time
-    you would deal damage to any other unit, deal 1 less damage.']
+description:
+- When this Equipment comes into play, declare one enemy unit.
+- Any time you would deal damage to that unit, deal an additional 2 damage.
+- Any time you would deal damage to any other unit, deal 1 less damage.
 name: Daredevil's Mark
 rarity: rare
-types: [equipment]
-uuid: 6d04b4ab-fea1-46f9-85d1-04f474a2ee6a
+types:
+- equipment
+uuid: 7c7a4b2e-935d-4137-8e79-20afed56127a
 version: 1

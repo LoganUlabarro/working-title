@@ -1,8 +1,13 @@
 class: generic
 cost: 3
-description: [Range 2., Range 2., Deal 3 damage to target.]
+description:
+- Range 2.
+- Range 2.
+- Deal 3 damage to target.
 name: Shoot
 rarity: common
-types: [attack-finesse, basic]
-uuid: a167fe0f-dd60-42bc-a582-0fc34213bccb
+types:
+- attack-finesse
+- basic
+uuid: 450abb58-8f29-4f90-a264-59d9b6878a0b
 version: 1

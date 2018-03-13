@@ -1,8 +1,11 @@
 class: generic
 cost: 5
-description: [Line 3., Deal 3 damage to an adjacent unit.]
+description:
+- Line 3.
+- Deal 3 damage to an adjacent unit.
 name: Cold Ray
 rarity: common
-types: [attack-magical]
-uuid: 0124d658-19ca-4cba-be68-e0221a771f90
+types:
+- attack-magical
+uuid: 4e0dd40b-04ae-41a2-86b4-e0736fac010d
 version: 1
