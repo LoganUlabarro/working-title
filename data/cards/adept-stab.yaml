@@ -1,11 +1,11 @@
 class: generic
 cost: 3
 description:
-- Deal 4 Physical Damage to an adjacent unit.
-- If you have no other cards in your hand then you may play this card for free.
+  - Deal 4 Physical Damage to an adjacent unit.
+  - If you have no other cards in your hand then you may play this card for free.
 name: Adept Stab
 rarity: uncommon
 types:
-- attack-physical
-uuid: 318b4fa0-a044-4cae-946d-10de83ade02d
+  - attack-physical
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
 version: 1

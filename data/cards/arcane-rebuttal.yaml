@@ -1,13 +1,13 @@
 class: generic
 cost: 5
 description:
-- Range 2.
-- If you use this card in response to a unit taking 5 or less damage,
-- then reflect that damage back to the attacker and add your Int stat to the damage.
+  - Range 2.
+  - If you use this card in response to a unit taking 5 or less damage,
+  - then reflect that damage back to the attacker and add your Int stat to the damage.
 name: Arcane rebuttal
 rarity: uncommon
 types:
-- attack-magical
-- react
-uuid: 6e5871e3-3eac-43ae-927b-d1246ccd9230
+  - attack-magical
+  - react
+uuid: 7a9b4ffa-46c3-48d1-8580-6096df6de750
 version: 1

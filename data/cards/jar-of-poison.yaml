@@ -1,11 +1,11 @@
 class: rogue
 cost: 3
 description:
-- Any time you deal damage to an enemy this turn, you may shuffle a Poison Status
-  Effect card into their Inventory.
+  - Any time you deal damage to an enemy this turn, you may shuffle a Poison Status
+    Effect card into their Inventory.
 name: Jar of Poison
 rarity: common
 types:
-- item
-uuid: acb01918-c097-4cea-b2dc-a3f3d93ee262
+  - item
+uuid: 54f9017b-56af-4ad2-8b39-6f77b0884e4a
 version: 1

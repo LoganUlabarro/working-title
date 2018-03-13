@@ -1,11 +1,11 @@
 class: fighter
 cost: 4
 description:
-- Range 2.
-- Deal 4 damage to target enemy.
+  - Range 2.
+  - Deal 4 damage to target enemy.
 name: Axe Toss
 rarity: common
 types:
-- attack-physical
-uuid: b0b1600a-6a65-4129-b0b0-45b80786f949
+  - attack-physical
+uuid: bb7a257c-6f32-48ad-a18c-632aa9536e3b
 version: 1

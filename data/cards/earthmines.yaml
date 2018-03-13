@@ -1,12 +1,12 @@
 class: mage
 cost: 3
 description:
-- Range 3.
-- Choose 3 unoccupied tiles. They gain the following tile effect.
-- If a unit moves over this tile deal 3 Magical damage to them.
+  - Range 3.
+  - Choose 3 unoccupied tiles. They gain the following tile effect.
+  - If a unit moves over this tile deal 3 Magical damage to them.
 name: Earthmines
 rarity: common
 types:
-- attack-magical
-uuid: d725bf06-77c2-4896-93e5-a28451ce3e6d
+  - attack-magical
+uuid: de0e3803-2c4c-4a5a-aca9-a05a9b9b79d4
 version: 1

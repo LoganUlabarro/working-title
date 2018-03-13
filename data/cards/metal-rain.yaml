@@ -1,13 +1,13 @@
 class: generic
 cost: 5
 description:
-- Range 3.
-- Splash.
-- Deal 2 damage to all units in the area.
-- Deal 2 damage to all units in the area.
+  - Range 3.
+  - Splash.
+  - Deal 2 damage to all units in the area.
+  - Deal 2 damage to all units in the area.
 name: Metal Rain
 rarity: common
 types:
-- attack-finesse
-uuid: 0dd81cc7-327b-4437-8bde-f3a12d8f750e
+  - attack-finesse
+uuid: 532e60cf-c204-41de-953b-17c7259c35a1
 version: 1

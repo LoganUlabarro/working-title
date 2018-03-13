@@ -1,15 +1,15 @@
 class: fighter
 cost: 2
 description:
-- Line 4.
-- Deal 1 damage.
-- The first enemy hit by this attack is moved in a line into the tile in front of
-  you.
-- They may not use a move action until your next end step.
+  - Line 4.
+  - Deal 1 damage.
+  - The first enemy hit by this attack is moved in a line into the tile in front of
+    you.
+  - They may not use a move action until your next end step.
 name: Hook
 rarity: common
 types:
-- attack-physical
-- react
-uuid: 5ec7a0eb-46df-4fac-9368-52f90bb5d2d6
+  - attack-physical
+  - react
+uuid: 8b7eda78-57e0-43cd-bb97-14e4155c932b
 version: 1

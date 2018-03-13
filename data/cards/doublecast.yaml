@@ -1,12 +1,12 @@
 class: mage
 cost: 4
 description:
-- Play a second copy of your next Non-Masterwork Item or Attack card. You may choose
-  new targets for it.
+  - Play a second copy of your next Non-Masterwork Item or Attack card. You may choose
+    new targets for it.
 name: Doublecast
 rarity: common
 types:
-- item
-- react
-uuid: 92ec0ef4-30fc-45bf-beb3-d7ee899aeaa5
+  - item
+  - react
+uuid: f66d89d6-bc31-490b-8eb0-fea9026b1ac5
 version: 1

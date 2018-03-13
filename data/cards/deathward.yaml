@@ -1,11 +1,11 @@
 class: mage
 cost: 2
 description:
-- If you would take a lethal blow, you may destroy this equipment.
-- If you do, then set your Health to 5.
+  - If you would take a lethal blow, you may destroy this equipment.
+  - If you do, then set your Health to 5.
 name: Deathward
 rarity: common
 types:
-- equipment
-uuid: e6d84d40-89c4-4ec2-af44-90e1b83ab807
+  - equipment
+uuid: 7f85cc30-e945-417a-affd-6dab324d38b9
 version: 1

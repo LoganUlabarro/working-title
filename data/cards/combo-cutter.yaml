@@ -1,11 +1,11 @@
 class: generic
 cost: 2
 description:
-- Deal 1 damage to an adjacent foe.
-- If this is the 3nd attack card you have used this turn, deal 4 damage instead.
+  - Deal 1 damage to an adjacent foe.
+  - If this is the 3nd attack card you have used this turn, deal 4 damage instead.
 name: Combo Cutter
 rarity: common
 types:
-- attack-finesse
-uuid: 09b90bd2-7460-446b-b4a1-2e8aa64980a3
+  - attack-finesse
+uuid: 4b1ae56d-9b19-4466-bd1e-f5643881e4f4
 version: 1
