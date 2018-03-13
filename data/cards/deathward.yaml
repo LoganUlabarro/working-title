@@ -1,0 +1,9 @@
+name: Deathward
+class: mage
+rarity: common
+cost: 2
+types:
+  - equipment
+description:
+  - 'If you would take a lethal blow, you may destroy this equipment.'
+  - 'If you do, then set your Health to 5.'

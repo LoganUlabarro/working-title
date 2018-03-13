@@ -1,0 +1,9 @@
+name: Meteor
+class: mage
+rarity: common
+cost: 3
+types:
+  - basic
+  - attack-magical
+description:
+  - 'Deal 5 damage to target enemy at Range 3'

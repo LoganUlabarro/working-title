@@ -1,0 +1,8 @@
+name: Friendly Fire
+class: mage
+rarity: common
+cost: 1
+types:
+  - equipment
+description:
+  - 'Your attacks no longer hurt your allies.'
