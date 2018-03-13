@@ -1,2 +1,2 @@
-pyyaml>=3.12
+ruamel.yaml>=0.15.35
 padnas>=0.20.0

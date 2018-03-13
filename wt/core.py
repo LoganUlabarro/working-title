@@ -4,9 +4,11 @@ import json
 from pathlib import Path
 from functools import reduce, partial
 
-import yaml
+from ruamel.yaml import YAML
 import pandas as pd
 
+yaml = YAML()
+yaml.indent(sequence=2, mapping=2, offset=2)
 
 def __batch_prepare_card_uuids_and_versions(path):
     import uuid
