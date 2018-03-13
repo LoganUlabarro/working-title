@@ -20,7 +20,7 @@ def __batch_prepare_card_uuids_and_versions(path):
             doc['version'] = 1
             cards.append(doc.copy())
             fid.truncate()
-            yaml.dump(doc, fid)
+            # yaml.dump(doc, fid)
     return cards
 
 
