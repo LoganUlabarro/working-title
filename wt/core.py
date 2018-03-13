@@ -119,7 +119,7 @@ def validate_card(card, schema=schema_path):
         try:
             iterator = iter(card['description'])
             for idx, item in enumerate(iterator):
-                if not item.endswith(('.', ',', ')')):
+                if not item.endswith(('.', ',', ')', ':')):
                     error_strs.append(base_str1 + f' description line {idx+1} improper ending, ...{item[-3:]}')
         except TypeError:
             error_strs.append(base_str1 + 'description is not formatted as an iterable.')
