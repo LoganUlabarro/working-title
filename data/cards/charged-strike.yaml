@@ -1,4 +1,10 @@
+<<<<<<< HEAD
+name: Charged Strike
+class: fighter
+rarity: uncommon
+=======
 class: warrior
+>>>>>>> 0adb0156ea917680b2f64b6184adfb28d9334490
 cost: 5
 description: ['During your next upkeep step, you may deal 15 damage to an adjacent
     unit.', 'Overcharge 3: Deal damage during your next end step instead of your upkeep.']

@@ -1,4 +1,10 @@
+<<<<<<< HEAD
+name: Cleave
+class: fighter
+rarity: common
+=======
 class: warrior
+>>>>>>> 0adb0156ea917680b2f64b6184adfb28d9334490
 cost: 5
 description: [Deal 7 damage distributed to any number of adjacent units, '(For example:
     4 damage to one unit and 3 to another.)']

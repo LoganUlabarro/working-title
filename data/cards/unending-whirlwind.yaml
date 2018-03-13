@@ -1,4 +1,10 @@
+<<<<<<< HEAD
+name: Unending Whirlwind
+class: fighter
+rarity: common
+=======
 class: warrior
+>>>>>>> 0adb0156ea917680b2f64b6184adfb28d9334490
 cost: 4
 description: [Deal 2 damage to all adjacent units., 'During your next upkeep, deal
     2 damage to all adjacent units.']

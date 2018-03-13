@@ -1,4 +1,10 @@
+<<<<<<< HEAD
+name: Axe Toss
+class: fighter
+rarity: common
+=======
 class: warrior
+>>>>>>> 0adb0156ea917680b2f64b6184adfb28d9334490
 cost: 4
 description: [Range 2., Deal 4 damage to target enemy.]
 name: Axe Toss
