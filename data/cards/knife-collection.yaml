@@ -1,0 +1,8 @@
+name: Knife Collection
+class: rogue
+rarity: common
+cost: 3
+types:
+  - equipment
+description:
+  - 'Any time you discard a card from your hand, you may deal 2 precise damage to target adjacent enemy.'

@@ -1,0 +1,10 @@
+name: Dusty Coin
+class: rogue
+rarity: common
+cost: 0
+types:
+  - loot
+description:
+  - 'Gain one Exhausted Action Point.'
+  - 'You may pay 2 AP to discard this card from your hand. If you do, then you may draw a card.'
+  

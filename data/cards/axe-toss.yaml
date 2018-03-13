@@ -1,0 +1,10 @@
+name: Axe Toss
+class: warrior
+rarity: common
+cost: 4
+types:
+  - attack-physical
+description:
+  - 'Range 2.'
+  - 'Deal 4 damage to target enemy.'
+  

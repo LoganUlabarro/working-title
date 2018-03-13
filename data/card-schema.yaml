@@ -12,9 +12,9 @@ class:
   - monk
   - artificer
 rarity:
-  - common: 1
-  - uncommon: 2
-  - rare: 3
+  common: 1
+  uncommon: 2
+  rare: 3
 types:
   - attack:
     - physical

@@ -1,0 +1,9 @@
+name: Hidden Pockets
+class: rogue
+rarity: common
+cost: 4
+types:
+  - equipment
+description:
+  - 'Draw an extra card during your upkeep.'
+  - 'Reduce your maximum hand size by 2.'
