@@ -10,7 +10,7 @@ setup(
     author='Brandon Dube',
     author_email='brandondube@gmail.com',
     packages=['wt'],
-    install_requires=['pyyaml'],
+    install_requires=['pyyaml', 'pandas'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Other Audience',
