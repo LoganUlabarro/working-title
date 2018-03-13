@@ -1,9 +1,8 @@
 class: mage
 cost: 3
-description: [Range 3, Choose 3 unoccupied tiles. They gain the following tile effect.,
-  If a unit moves over this tile deal 3 Magical damage to them.]
-name: Earthmines
-rarity: common
-types: [attack-magical]
-uuid: c59338e1-003e-43b0-9528-6fe4dc6d2c03
-version: 1
+types:
+  - attack-magical
+description:
+  - 'Range 3.'
+  - 'Choose 3 unoccupied tiles. They gain the following tile effect.'
+  - 'If a unit moves over this tile deal 3 Magical damage to them.'

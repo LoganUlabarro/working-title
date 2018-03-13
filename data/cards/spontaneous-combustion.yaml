@@ -1,0 +1,8 @@
+name: Spontaneous Combustion
+class: mage
+cost: 5
+types:
+  - attack-magical
+description:
+  - 'Range 3.'
+  - 'Deal 5 damage to target unit and 3 damage to all units adjacent to that unit at the start of their next upkeep.'

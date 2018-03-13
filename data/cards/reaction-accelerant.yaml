@@ -1,4 +1,5 @@
 class: mage
+rarity: common
 cost: 2
 description: [Any time you use two cards with React in the same turn you may draw
     a card.]
