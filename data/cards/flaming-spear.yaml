@@ -1,0 +1,10 @@
+name: Flaming Spear
+class: generic
+rarity: rare
+cost: 6
+types:
+  - attack-magical
+description:
+  - 'Line 3.'
+  - 'Deal 8 damage to the first unit hit.'
+  - 'Deal 0 damage to all subsequent units.'

@@ -1,0 +1,11 @@
+name: Stalagmite
+class: generic
+rarity: rare
+cost: 4
+types:
+  - attack-magical
+description:
+  - 'Range 2.'
+  - 'Splash.'
+  - 'Mark target area.'
+  - 'At the end of your next turn deal 6 damage to units in the targeted area.'

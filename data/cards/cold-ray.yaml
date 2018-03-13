@@ -1,0 +1,9 @@
+name: Cold Ray
+class: generic
+rarity: common
+cost: 5
+types:
+  - attack-magical
+description:
+  - 'Line 3.'
+  - 'Deal 3 damage to an adjacent unit.'

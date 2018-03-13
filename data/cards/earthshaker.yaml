@@ -1,0 +1,8 @@
+name: Earthshaker
+class: generic
+rarity: common
+cost: 3
+types:
+  - attack-magical
+description:
+  - 'Deal 2 damage to all adjacent units.'

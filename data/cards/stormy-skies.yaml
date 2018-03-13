@@ -1,0 +1,12 @@
+name: Stormy Skies
+class: generic
+rarity: uncommon
+cost: 5
+types:
+  - attack-magical
+description:
+  - 'Range 3.'
+  - 'Splash.'
+  - 'Target tiles gain the following effect for 3 turns (Counting this one.)'
+  - 'Units ending their turn on this tile take 2 damage.'
+  - 'Units expend double movement to move through this tile.'

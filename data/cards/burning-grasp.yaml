@@ -1,0 +1,9 @@
+name: Burning Grasp
+class: generic
+rarity: common
+cost: 3
+types:
+  - attack-magical
+description:
+  - 'Deal 3 damage to an adjacent unit.'
+  - 'Shuffle one Burn status effect card into it's deck.'
