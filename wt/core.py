@@ -16,8 +16,8 @@ def __batch_prepare_card_uuids_and_versions(path):
     for file in files:
         with open(file, 'r+') as fid:
             doc = yaml.load(fid)
-            doc['uuid'] = str(uuid.uuid4())
             doc['version'] = 1
+            doc['uuid'] = str(uuid.uuid4())
             cards.append(doc.copy())
             fid.seek(0)
             fid.truncate()
@@ -122,9 +122,9 @@ def validate_card(card, schema=schema_path):
         except TypeError:
             error_strs.append(base_str1 + 'description is not formatted as an iterable.')
 
-    # if error_strs:
-    #     error = '\n'.join(error_strs)
-    #     raise ValueError(error)
+    if error_strs:
+        error = '\n'.join(error_strs)
+        raise ValueError(error)
     return card
 
 
@@ -170,12 +170,18 @@ def load_cards(directory, schema=schema):
     """
     p = Path(directory)
     files = p.glob('*.yaml')
-    cards = []
+    cards, errors = [], []
     for file in files:
         with open(file, 'r') as fid:
-            data = validate_card(yaml.load(fid), schema)
-            card = load_card(data, schema)
-            cards.append(card)
+            try:
+                data = validate_card(yaml.load(fid), schema)
+                card = load_card(data, schema)
+                cards.append(card)
+            except ValueError as e:
+                errors.append(str(e))
+
+    if errors:
+        raise ValueError('\n'.join(errors))
     return pd.DataFrame(cards)
 
 
