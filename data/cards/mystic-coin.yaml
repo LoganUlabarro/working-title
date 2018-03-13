@@ -1,0 +1,10 @@
+class: mage
+cost: 0
+description:
+- Gain one Exhausted Action Point
+name: Mystic Coin
+rarity: common
+types:
+- loot
+uuid: c9f8136d-58a2-4dc9-b0b5-15561816135d
+version: 1

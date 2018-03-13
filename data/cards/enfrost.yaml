@@ -1,7 +1,7 @@
 class: mage
 cost: 4
 description:
-- Line 3
+- Line 3.
 - Deal 1 damage to all units.
 - All units hit by this can only move 1 tile during their next turn.
 name: Enfrost

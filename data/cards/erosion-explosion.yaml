@@ -6,6 +6,7 @@ description:
 - You may destroy a boon they control. If you do, deal 3 damage to all units adjacent
   to target unit.
 name: Erosion Explosion
+rarity: uncommon
 types:
 - attack-magical
 uuid: a4f1d859-4669-4c4c-a280-ded094aec90b

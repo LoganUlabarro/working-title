@@ -1,7 +1,7 @@
 class: mage
 cost: 4
 description:
-- Charges 0
+- Charges 0.
 - This card is not destroyed at 0 Charge.
 - Any time you draw 3 or more cards in a single turn you may add 1 charge.
 - Gain 1 Int for each Charge on Self-Writing Tome.
