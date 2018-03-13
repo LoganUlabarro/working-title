@@ -1,9 +1,10 @@
-name: Glass Orb
 class: mage
-rarity: uncommon
 cost: 3
-types:
-  - equipment
-description:
-  - 'While Glass Orb is in play raise your Int by 5 and reduce your Con and Wis by 3.'
-  - 'If Glass Orb is in your starting hand you may pay 5 life to put it into play without paying the AP cost.'
+description: [While Glass Orb is in play raise your Int by 5 and reduce your Con and
+    Wis by 3., If Glass Orb is in your starting hand you may pay 5 life to put it
+    into play without paying the AP cost.]
+name: Glass Orb
+rarity: uncommon
+types: [equipment]
+uuid: 3c9fc818-6696-43a3-9ef1-a366337302cc
+version: 1

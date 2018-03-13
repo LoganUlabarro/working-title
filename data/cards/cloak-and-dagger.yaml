@@ -1,12 +1,10 @@
-name: Cloak and Dagger
 class: rogue
-rarity: common
 cost: 3
-types:
-  - item
-  - react
-description:
-  - 'As an additional cost to playing this card, you must discard another card.'
-  - 'Search your Inventory for up to 2 copies of "Slice" and put them in your hand.'
-  - 'Shuffle your Inventory'
-  
+description: ['As an additional cost to playing this card, you must discard another
+    card.', Search your Inventory for up to 2 copies of "Slice" and put them in your
+    hand., Shuffle your Inventory]
+name: Cloak and Dagger
+rarity: common
+types: [item, react]
+uuid: 180a7371-3054-4792-973c-86dd510e0097
+version: 1

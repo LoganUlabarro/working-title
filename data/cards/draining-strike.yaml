@@ -1,9 +1,8 @@
-name: Draining Strike
 class: generic
-rarity: common
 cost: 4
-types:
-  - attack-physical
-description:
-  - 'Deal 3 damage to an adjacent enemy'
-  - 'Heal HP equal to the damage dealt'
+description: [Deal 3 damage to an adjacent enemy, Heal HP equal to the damage dealt]
+name: Draining Strike
+rarity: common
+types: [attack-physical]
+uuid: 2efd0149-8107-4d42-839d-57e1dc6d5c62
+version: 1

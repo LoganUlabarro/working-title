@@ -1,9 +1,9 @@
-name: Thieve's Handbook
 class: rogue
-rarity: common
 cost: 3
-types:
-  - item
-description:
-  - 'Draw 2 cards.'
-  - 'If this card is discarded from your hand, you may draw 1 card.'
+description: [Draw 2 cards., 'If this card is discarded from your hand, you may draw
+    1 card.']
+name: Thieve's Handbook
+rarity: common
+types: [item]
+uuid: 385bc93d-ffb0-4c63-821b-abfc35589cff
+version: 1

@@ -1,10 +1,9 @@
-name: Backstab
 class: rogue
-rarity: common
 cost: 3
-types:
-  - attack-finesse
-description:
-  - 'Deal 4 damage to an adjacent enemy.'
-  - 'If an ally is also adjacent to target enemy, reduce the cost of this card by 2.'
-  
+description: [Deal 4 damage to an adjacent enemy., 'If an ally is also adjacent to
+    target enemy, reduce the cost of this card by 2.']
+name: Backstab
+rarity: common
+types: [attack-finesse]
+uuid: b49e40b3-1514-44ae-ab38-7703e5d8c89a
+version: 1

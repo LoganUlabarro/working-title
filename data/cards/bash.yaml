@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 name: Bash
 class: fighter
 rarity: common
+=======
+class: warrior
+>>>>>>> 0adb0156ea917680b2f64b6184adfb28d9334490
 cost: 4
-types:
-  - attack-physical
-  - basic
-description:
-  - 'Deal 6 damage to an adjacent enemy.'
-  - 'Push that enemy backwards one tile if able.'
-  
+description: [Deal 6 damage to an adjacent enemy., Push that enemy backwards one tile
+    if able.]
+name: Bash
+rarity: common
+types: [attack-physical, basic]
+uuid: 1ce06cf5-312a-4d14-85a0-4118253ecfa3
+version: 1

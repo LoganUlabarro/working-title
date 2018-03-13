@@ -1,9 +1,9 @@
-name: Spontanious Combustion
 class: mage
-rarity: common
 cost: 5
-types:
-  - attack-magical
-description:
-  - 'Range 3'
-  - 'Deal 5 damage to target unit and 3 damage to all units adjacent to that unit at the start of their next upkeep.'
+description: [Range 3, Deal 5 damage to target unit and 3 damage to all units adjacent
+    to that unit at the start of their next upkeep.]
+name: Spontanious Combustion
+rarity: common
+types: [attack-magical]
+uuid: 51d64e08-e202-4345-a512-f4322806aefd
+version: 1

@@ -1,10 +1,9 @@
-name: Toxic Strike
 class: rogue
-rarity: common
 cost: 3
-types:
-  - attack-finesse
-description:
-  - 'Deal 4 damage to an adjacent enemy.'
-  - 'Shuffle 2 Poison Status Effect cards into that enemy''s deck.'
-
+description: [Deal 4 damage to an adjacent enemy., Shuffle 2 Poison Status Effect
+    cards into that enemy's deck.]
+name: Toxic Strike
+rarity: common
+types: [attack-finesse]
+uuid: f50c1a19-d3d4-4139-94d1-8e317485037d
+version: 1

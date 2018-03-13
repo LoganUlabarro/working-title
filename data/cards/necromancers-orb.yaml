@@ -1,11 +1,10 @@
-name: 'Necromancer''s Orb'
 class: mage
-rarity: rare
 cost: 0
-types:
-  - equipment
-  - masterwork
-description:
-  - 'When Necromancer''s Orb comes into play discard your hand.'
-  - 'You may cast cards from your Discard Pile. If you do, then put them in the Trash Pile.'
-  - 'Instead of drawing cards, put them into your Discard Pile.'
+description: [When Necromancer's Orb comes into play discard your hand., 'You may
+    cast cards from your Discard Pile. If you do, then put them in the Trash Pile.',
+  'Instead of drawing cards, put them into your Discard Pile.']
+name: Necromancer's Orb
+rarity: rare
+types: [equipment, masterwork]
+uuid: 2d6090e9-fff2-4fd6-8414-87a9a75b50ba
+version: 1
