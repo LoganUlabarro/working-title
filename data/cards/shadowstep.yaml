@@ -1,0 +1,11 @@
+name: Shadowstep
+class: rogue
+rarity: uncommon
+cost: 4
+types:
+  - item
+  - react
+description:
+  - 'Range 3.'
+  - 'Blink to any tile adjacent to target enemy within range.'
+  - 'Your next attack this turn will deal 3 extra damage.'

@@ -1,0 +1,10 @@
+name: Bolas
+class: rogue
+rarity: common
+cost: 3
+types:
+  - item
+description:
+  - 'Range 2.'
+  - 'Target unit cannot move until the start of your next turn.'
+  
