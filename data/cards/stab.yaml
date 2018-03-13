@@ -1,0 +1,9 @@
+name: Stab
+class: generic
+rarity: common
+cost: 2
+types:
+  - attack-physical
+  - basic
+description:
+  - 'Deal 3 Physical Damage to an adjacent unit'

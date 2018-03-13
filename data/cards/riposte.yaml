@@ -1,0 +1,9 @@
+name: Riposte
+class: generic
+rarity: common
+cost: 2
+types:
+  - attack-physical
+  - react
+description:
+  - 'Deal 4 damage to target adjacent attacking unit.'

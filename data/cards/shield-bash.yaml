@@ -1,0 +1,9 @@
+name: Shield Bash
+class: generic
+rarity: common
+cost: 3
+types:
+  - attack-physical
+description:
+  - 'Deal 2 damage to an adjacent enemy.'
+  - 'If you have more Con than the target unit, then deal 5 damage instead'
