@@ -1,0 +1,9 @@
+name: Long Bow
+class: generic
+rarity: uncommon
+cost: 2
+types:
+  - attack-finesse
+description:
+  - 'Deal 4 damage to target units 4 tiles away.'
+ 
