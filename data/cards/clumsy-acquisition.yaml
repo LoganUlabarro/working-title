@@ -1,0 +1,11 @@
+name: Clumsy Acquisation
+class: rogue
+rarity: common
+cost: 3
+types:
+  - item
+  - react
+description:
+  - 'Draw 3 cards.'
+  - 'Discard 2 cards.'
+  

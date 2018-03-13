@@ -1,0 +1,12 @@
+name: Dagger Toss
+class: generic
+rarity: uncommon
+cost: 3
+types:
+  - attack-finesse
+description:
+  - 'Range 3.'
+  - 'Deal 2 damage to target unit.'
+  - 'You may reveal another Finesse card from your hand.'
+  - 'If you do, deal 4 damage instead of 2.'
+   

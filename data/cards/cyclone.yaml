@@ -1,0 +1,9 @@
+name: Cyclone
+class: generic
+rarity: common
+cost: 3
+types:
+  - attack-finesse
+description:
+  - 'Deal 2 damage to all adjacent units.'
+   
