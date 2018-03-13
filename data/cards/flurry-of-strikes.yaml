@@ -1,0 +1,10 @@
+name: Flurry of Strikes
+class: generic
+rarity: common
+cost: 4
+types:
+  - attack-physical
+description:
+  - 'Deal 1 damage to an adjacent enemy'
+  - 'Deal 1 damage to an adjacent enemy'
+  - 'Deal 1 damage to an adjacent enemy'

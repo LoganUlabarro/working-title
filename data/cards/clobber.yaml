@@ -1,0 +1,10 @@
+name: Clobber
+class: generic
+rarity: uncommon
+cost: 0
+types:
+  - attack-physical
+description:
+  - 'Deal damage to an adjacent unit equal to your unused AP.'
+  - 'Exhaust all of your Action Points.'
+  - 'If 5 or more AP was expended this way deal 3 additional True Damage.'
