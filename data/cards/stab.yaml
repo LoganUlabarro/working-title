@@ -6,4 +6,4 @@ types:
   - attack-physical
   - basic
 description:
-  - 'Deal 3 Physical Damage to an adjacent unit'
+  - 'Deal 3 Physical Damage to an adjacent unit.'

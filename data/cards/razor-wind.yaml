@@ -1,0 +1,9 @@
+name: Razor Wind
+class: generic
+rarity: common
+cost: 2
+types:
+  - attack-magical
+description:
+  - 'Deal 3 damage to an adjacent unit.'
+  - 'Move yourself back from target unit if able.'

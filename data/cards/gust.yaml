@@ -1,0 +1,9 @@
+name: Gust
+class: generic
+rarity: common
+cost: 2
+types:
+  - attack-magical
+description:
+  - 'Range 2.'
+  - 'Move target unit up to two tiles.'
