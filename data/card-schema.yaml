@@ -1,3 +1,7 @@
+uuid: str
+name: str
+description: iterable
+version: int
 class:
   - generic
   - paladin
@@ -21,6 +25,7 @@ types:
   - loot
   - equipment
   - react
+  - full round action
 cost:
 - 0
 - 1
