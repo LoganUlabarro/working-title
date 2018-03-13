@@ -26,6 +26,7 @@ types:
   - equipment
   - react
   - full round action
+  - basic
 cost:
 - 0
 - 1
