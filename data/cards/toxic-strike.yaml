@@ -6,5 +6,5 @@ types:
   - attack-finesse
 description:
   - 'Deal 4 damage to an adjacent enemy.'
-  - 'Shuffle 2 Poison Status Effect cards into that enemy's deck.'
-  
+  - 'Shuffle 2 Poison Status Effect cards into that enemy''s deck.'
+
