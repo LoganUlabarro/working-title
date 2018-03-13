@@ -1,7 +1,7 @@
 class: generic
 cost: 4
 description: [Range 2., Discard your hand., Deal damage to target enemy equal to the
-    number of cards you discarded., Draw 2 cards]
+    number of cards you discarded., Draw 2 cards.]
 name: Barrage
 rarity: rare
 types: [attack-finesse]
