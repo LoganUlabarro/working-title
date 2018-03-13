@@ -1,0 +1,9 @@
+name: Obliterate
+class: generic
+rarity: common
+cost: 7
+types:
+  - attack-physical
+  - full round action
+description:
+  - 'Deal 15 damage to an adjacent enemy.'
