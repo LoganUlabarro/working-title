@@ -3,6 +3,7 @@
 import json
 from pathlib import Path
 from functools import reduce, partial
+from random import choices
 
 from ruamel.yaml import YAML
 import pandas as pd
@@ -10,13 +11,14 @@ import pandas as pd
 yaml = YAML()
 yaml.default_flow_style = False
 yaml.indent(sequence=4, mapping=2, offset=2)
+glob_str = '**/*.yaml'
 
 
 def __batch_prepare_card_uuids_and_versions(path):
     import uuid
     cards = []
     p = Path(path)
-    files = p.glob('*.yaml')
+    files = p.glob(glob_str)
     for file in files:
         with open(file, 'r+') as fid:
             doc = yaml.load(fid)
@@ -175,7 +177,7 @@ def load_cards(directory, schema=schema):
 
     """
     p = Path(directory)
-    files = p.glob('*.yaml')
+    files = p.glob(glob_str)
     cards, errors = [], []
     for file in files:
         with open(file, 'r') as fid:
@@ -217,7 +219,7 @@ def cards_to_probabilities(database, schema=schema):
 
 
 
-def draw_card(user, database):
+def draw_cards(user, database, n=1):
     """Draws a card for the user.
 
     Parameters
@@ -226,6 +228,8 @@ def draw_card(user, database):
         dictionary with attr class
     database: `pd.DataFrame`
         card database
+    n: `int`
+        number of cards to draw
 
     Returns
     -------
@@ -239,4 +243,7 @@ def draw_card(user, database):
 
     merger = partial(pd.merge, on='uuid', how='outer')
     valid_cards = reduce(merger, card_subsets)
-
+    uuids = valid_cards.uuid.values
+    weights = valid_cards.draw_chance.values
+    id_ = choices(uuids, weights)
+    return id_
