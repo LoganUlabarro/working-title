@@ -10,6 +10,7 @@ import pandas as pd
 
 def __batch_prepare_card_uuids_and_versions(path):
     import uuid
+    cards = []
     p = Path(path)
     files = p.glob('*.yaml')
     for file in files:
@@ -17,8 +18,9 @@ def __batch_prepare_card_uuids_and_versions(path):
             doc = yaml.load(fid)
             doc['uuid'] = str(uuid.uuid4())
             doc['version'] = 1
-            print(doc)
+            cards.append(doc.copy())
             yaml.dump(doc, fid)
+    return cards
 
 
 def load_schema(path):
