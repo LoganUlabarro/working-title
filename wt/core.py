@@ -2,7 +2,6 @@
 
 import json
 from pathlib import Path
-from functools import reduce, partial
 from random import choices
 
 from ruamel.yaml import YAML
@@ -195,30 +194,6 @@ def load_cards(directory, schema=schema):
     return pd.DataFrame(cards)
 
 
-def cards_to_probabilities(database, schema=schema):
-    """Create
-
-    Parameters
-    ----------
-    database : `pd.DataFrame`
-        database of cards
-
-    Returns
-    -------
-    `list`
-        list with duplicate entries for cards with non unity probability
-
-    """
-    multiplier = 1 / database.draw_chance.min()
-    total_chance = int(database.draw_chance.sum() * multiplier)
-    rares = database.query('rarity == "rare"').name.values
-    uncommons = database.query('rarity == "uncommon"').name.values
-    commons = database.query('rarity == "common"').name.values
-
-    out = []
-
-
-
 def draw_cards(user, database, n=1):
     """Draws a card for the user.
 
@@ -237,13 +212,19 @@ def draw_cards(user, database, n=1):
 
     """
     user_classes = user['class']
-    card_subsets = []
+    card_masks = []
     for class_ in user_classes:
-        card_subsets.append(database.query(f'class == {class_}'))
+        card_masks.append(database['class'] == class_)
 
-    merger = partial(pd.merge, on='uuid', how='outer')
-    valid_cards = reduce(merger, card_subsets)
+    mask = pd.concat(card_masks, axis=1).any(axis=1)
+    valid_cards = database[mask]
+
+    # merger = partial(pd.merge, on='uuid', how='outer')
+    # valid_cards = reduce(merger, card_subsets)
     uuids = valid_cards.uuid.values
     weights = valid_cards.draw_chance.values
-    id_ = choices(uuids, weights)
-    return id_
+    id_ = choices(uuids, weights, k=n)
+    outmask = database.uuid.isin(id_)
+    chosen_cards = database[outmask]
+    dictionaries = chosen_cards.to_dict(orient='records')
+    return dictionaries
