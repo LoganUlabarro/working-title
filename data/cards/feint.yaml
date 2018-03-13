@@ -1,0 +1,11 @@
+name: Feint
+class: rogue
+rarity: common
+cost: 4
+types:
+  - attack-finesse
+  - react
+description:
+  - 'Deal 2 damage to an adjacent enemy.'
+  - 'If damage is dealt, then you may move one tile away from the enemy if possible.'
+  
