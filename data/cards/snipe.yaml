@@ -1,0 +1,10 @@
+name: Snipe
+class: rogue
+rarity: uncommon
+cost: 5
+types:
+  - attack-finesse
+description:
+  - 'Deal 7 damage to target enemy 3 tiles away.'
+  - 'If an enemy is adjacent to you when you use this card, then deal 5 damage instead.'
+  

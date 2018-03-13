@@ -1,0 +1,10 @@
+name: First Strike
+class: rogue
+rarity: common
+cost: 3
+types:
+  - attack-finesse
+description:
+  - 'Deal 3 damage to an adjacent enemy.'
+  - 'Reveal the top card of your Inventory. If the revealed card is an attack card, then you may draw it.'
+  

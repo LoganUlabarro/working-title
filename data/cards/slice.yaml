@@ -1,0 +1,11 @@
+name: Slice
+class: rogue
+rarity: common
+cost: 3
+types:
+  - attack-finesse
+  - basic
+description:
+  - 'Deal 2 damage to an adjacent enemy.'
+  - 'Draw a card.'
+  
