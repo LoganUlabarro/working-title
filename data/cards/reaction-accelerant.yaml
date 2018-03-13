@@ -1,6 +1,6 @@
 name: Reaction Accelerant
 class: mage
-rarity: uncommon
+rarity: common
 cost: 2
 types:
   - equipment

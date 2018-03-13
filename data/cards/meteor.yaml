@@ -6,4 +6,4 @@ types:
   - basic
   - attack-magical
 description:
-  - 'Deal 5 damage to target enemy at Range 3'
+  - 'Deal 5 damage to target enemy at Range 3.'

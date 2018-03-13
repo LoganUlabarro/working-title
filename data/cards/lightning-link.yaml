@@ -5,5 +5,5 @@ cost: 5
 types:
   - attack-magical
 description:
-  - 'Range 3'
+  - 'Range 3.'
   - 'Deal 4 damage to target unit during your end step. As long as the target enemy hasn''t moved further than 3 tiles away from you repeat this process every turn.'

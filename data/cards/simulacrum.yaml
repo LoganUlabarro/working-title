@@ -1,0 +1,12 @@
+name: Simulacrum
+class: mage
+rarity: rare
+cost: 5
+types:
+  - item
+  - masterwork
+  - react
+description:
+  - 'Create a clone of yourself in a tile up to range 2. This copy has your stats, but only 5 health plus your Int stat. It cannot move.'
+  - 'All Magical Attack cards gain the following.'
+  - 'Overcharge 3: Cast a copy of this spell from your clone''s location.'

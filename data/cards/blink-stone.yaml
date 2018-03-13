@@ -1,0 +1,10 @@
+name: Blink Stone
+class: mage
+rarity: uncommon
+cost: 4
+types:
+  - item
+  - react
+description:
+  - 'Become untargetable and immune to damage until the start of your next turn.'
+  - 'You may not draw cards through any means until your next end step.'
