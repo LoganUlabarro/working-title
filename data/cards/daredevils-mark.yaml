@@ -1,0 +1,10 @@
+name: Daredevil's Mark
+class: rogue
+rarity: rare
+cost: 4
+types:
+  - equipment
+description:
+  - 'When this Equipment comes into play, declare one enemy unit.'
+  - 'Any time you would deal damage to that unit, deal an additional 2 damage.'
+  - 'Any time you would deal damage to any other unit, deal 1 less damage.'
