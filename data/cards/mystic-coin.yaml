@@ -1,7 +1,7 @@
 class: mage
 cost: 0
 description:
-- Gain one Exhausted Action Point
+- Gain one Exhausted Action Point.
 name: Mystic Coin
 rarity: common
 types:
