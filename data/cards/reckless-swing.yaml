@@ -1,11 +1,11 @@
 class: generic
 cost: 4
 description:
-- Deal 8 damage.
-- reduce your Con to 0 until the end of your next turn.
+  - Deal 8 damage.
+  - reduce your Con to 0 until the end of your next turn.
 name: Reckless Swing
 rarity: rare
 types:
-- attack-physical
-uuid: 51843e73-c7be-461e-8da8-1fb7c2d3fa5f
+  - attack-physical
+uuid: 2e9ca12c-f6ce-40b9-aa80-33b45196d3c8
 version: 1

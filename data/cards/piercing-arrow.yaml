@@ -1,12 +1,12 @@
 class: generic
 cost: 5
 description:
-- Range 3.
-- Deal 3 damage to the first unit hit.
-- This damage is reduced by 1 for each subsequent enemy.
+  - Range 3.
+  - Deal 3 damage to the first unit hit.
+  - This damage is reduced by 1 for each subsequent enemy.
 name: Piercing Arrow
 rarity: common
 types:
-- attack-finesse
-uuid: 6d11fa3f-3911-44d1-ba17-a72ee8a51240
+  - attack-finesse
+uuid: dcf289b6-f687-43b4-ac5d-a30b82119dd7
 version: 1

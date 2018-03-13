@@ -1,11 +1,11 @@
 class: rogue
 cost: 3
 description:
-- The first time you would shuffle a Poison Status Effect card into an enemy's deck
-  each turn, shuffle two instead.
+  - The first time you would shuffle a Poison Status Effect card into an enemy's deck
+    each turn, shuffle two instead.
 name: Stronger Dose
 rarity: common
 types:
-- equipment
-uuid: f56b67cd-40c2-4de5-99e8-2995ad4d6839
+  - equipment
+uuid: 5b10b514-1e39-43dc-921e-927904c9f485
 version: 1

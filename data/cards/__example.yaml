@@ -1,12 +1,12 @@
 class: generic
 cost: 0
 description:
-- line 1.
-- line 2.
+  - line 1.
+  - line 2.
 name: a name
 rarity: common
 types:
-- attack-physical
-- masterwork
-uuid: f06c7ba9-72e6-42f2-bd21-87ef264265b1
+  - attack-physical
+  - masterwork
+uuid: 41b1c7e4-44b7-49a3-bcf7-77c1743a3e32
 version: 1

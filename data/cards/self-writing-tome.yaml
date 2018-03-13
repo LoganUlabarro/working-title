@@ -1,13 +1,13 @@
 class: mage
 cost: 4
 description:
-- Charges 0.
-- This card is not destroyed at 0 Charge.
-- Any time you draw 3 or more cards in a single turn you may add 1 charge.
-- Gain 1 Int for each Charge on Self-Writing Tome.
+  - Charges 0.
+  - This card is not destroyed at 0 Charge.
+  - Any time you draw 3 or more cards in a single turn you may add 1 charge.
+  - Gain 1 Int for each Charge on Self-Writing Tome.
 name: Self-Writing Tome
 rarity: uncommon
 types:
-- equipment
-uuid: 6f4f73a0-2019-49e6-b820-7aa6c87fe83b
+  - equipment
+uuid: bd848ac5-3226-4b27-8fcf-41017158f2b1
 version: 1

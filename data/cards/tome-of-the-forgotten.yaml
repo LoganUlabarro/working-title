@@ -1,12 +1,13 @@
 class: mage
 cost: 3
 description:
-- Trash the top card of your Inventory. Take true damage equal to the Trashed card's AP cost.
-- Draw 2 cards.
+  - Trash the top card of your Inventory. Take true damage equal to the Trashed card's
+    AP cost.
+  - Draw 2 cards.
 name: Tome of the Forgotten
 rarity: common
 types:
-- item
-- react
-uuid: c9f8136d-58a2-4dc9-b0b5-15561816135d
+  - item
+  - react
+uuid: c2196685-4a20-4fd2-9397-a28b4dbe13ff
 version: 1

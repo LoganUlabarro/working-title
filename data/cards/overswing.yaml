@@ -1,11 +1,11 @@
 class: generic
 cost: 5
 description:
-- Deal 10 damage to an adjacent enemy.
-- Flip a coin. If the coin lands on tails take 5 damage.
+  - Deal 10 damage to an adjacent enemy.
+  - Flip a coin. If the coin lands on tails take 5 damage.
 name: Overswing
 rarity: rare
 types:
-- attack-physical
-uuid: 2a6287a6-f260-4069-a68e-59558c491b7e
+  - attack-physical
+uuid: b4b83b24-f731-4fb7-b37e-3df017aa6da2
 version: 1

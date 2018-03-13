@@ -1,12 +1,12 @@
 class: generic
 cost: 5
 description:
-- Line 2.
-- Deal 3 damage.
+  - Line 2.
+  - Deal 3 damage.
 name: Piercing thrust
 rarity: rare
 types:
-- attack-physical
-- basic
-uuid: 03b07932-21ea-4a66-9a1a-56ad562dc71c
+  - attack-physical
+  - basic
+uuid: bc490fac-45c1-4aad-ae70-afa6b9487605
 version: 1

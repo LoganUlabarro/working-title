@@ -1,12 +1,13 @@
 class: mage
 cost: 3
 description:
-- Draw 1 card.
-- If you dealt more than 4 Magical damage this turn, another target ally may draw 1 card as well.
+  - Draw 1 card.
+  - If you dealt more than 4 Magical damage this turn, another target ally may draw
+    1 card as well.
 name: Tome of the Mentor
 rarity: common
 types:
-- item
-- react
-uuid: c9f8136d-58a2-4dc9-b0b5-15561816135d
+  - item
+  - react
+uuid: d785751f-1db4-4385-b31e-b947ee6dc1c4
 version: 1
