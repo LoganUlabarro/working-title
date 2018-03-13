@@ -1,10 +1,24 @@
 """core functions."""
 
-import glob
 import json
 from pathlib import Path
+from functools import reduce, partial
 
 import yaml
+import pandas as pd
+
+
+def __batch_prepare_card_uuids_and_versions(path):
+    import uuid
+    p = Path(path)
+    files = p.glob('*.yaml')
+    for file in files:
+        with open(file, 'r+') as fid:
+            doc = yaml.load(fid)
+            doc['uuid'] = str(uuid.uuid4())
+            doc['version'] = 1
+            print(doc)
+            yaml.dump(doc, fid)
 
 
 def load_schema(path):
@@ -56,6 +70,7 @@ def validate_card(card, schema=schema_path):
     on card, find iterable card fields and do sub-iteration on that.
 
     """
+
     error_strs = []
     if 'name' not in card:
         error_strs.append('card does not have a name.')
@@ -77,7 +92,7 @@ def validate_card(card, schema=schema_path):
     if 'rarity' not in card:
         error_strs.append(base_str2 + 'rarity.')
     else:
-        if card['rarity'] not in schema['rarity']:
+        if card['rarity'] not in schema['rarity'].keys():
             error_strs.append(base_str1 + ' invalid rarity.')
 
     if 'types' not in card:
@@ -103,20 +118,21 @@ def validate_card(card, schema=schema_path):
         except TypeError:
             error_strs.append(base_str1 + 'description is not formatted as an iterable.')
 
-    if error_strs:
-        error = '\n'.join(error_strs)
-        raise ValueError(error)
-    else:
-        return card
+    # if error_strs:
+    #     error = '\n'.join(error_strs)
+    #     raise ValueError(error)
+    return card
 
 
-def load_card(card_dict):
+def load_card(data, schema=schema):
     """Validate that the card is correctly formed.
 
     Parameters
     ----------
-    card_dict : `dict`
-        dictionary representation of card
+    data : `dict`
+        raw card data
+    schema : `dict`
+        card schema dictionary
 
     Returns
     -------
@@ -126,13 +142,16 @@ def load_card(card_dict):
     Raises
     ------
     ValueError
-        if card is malformed
+        if data is malformed
 
     """
-    pass
+    out = data.copy()
+    out['description'] = '\n'.join(data['description'])
+    out['draw_chance'] = 1 / schema['rarity'][data['rarity']]
+    return out
 
 
-def load_cards(directory):
+def load_cards(directory, schema=schema):
     """Load all cards in a directory.
 
     Parameters
@@ -142,15 +161,64 @@ def load_cards(directory):
 
     Returns
     -------
-    todo
+    `pandas.DataFrame`
 
     """
     p = Path(directory)
-    files = glob.iglob(p / '*.yaml')
-    out = {}
+    files = p.glob('*.yaml')
+    cards = []
     for file in files:
         with open(file, 'r') as fid:
-            data = yaml.load(fid)
-    #         key = data['uuid']
-    #         out{key} = data
-    # return out
+            data = validate_card(yaml.load(fid), schema)
+            card = load_card(data, schema)
+            cards.append(card)
+    return pd.DataFrame(cards)
+
+
+def cards_to_probabilities(database, schema=schema):
+    """Create
+
+    Parameters
+    ----------
+    database : `pd.DataFrame`
+        database of cards
+
+    Returns
+    -------
+    `list`
+        list with duplicate entries for cards with non unity probability
+
+    """
+    multiplier = 1 / database.draw_chance.min()
+    total_chance = int(database.draw_chance.sum() * multiplier)
+    rares = database.query('rarity == "rare"').name.values
+    uncommons = database.query('rarity == "uncommon"').name.values
+    commons = database.query('rarity == "common"').name.values
+
+    out = []
+
+
+
+def draw_card(user, database):
+    """Draws a card for the user.
+
+    Parameters
+    ----------
+    user : `dict`
+        dictionary with attr class
+    database: `pd.DataFrame`
+        card database
+
+    Returns
+    -------
+    TODO: return type
+
+    """
+    user_classes = user['class']
+    card_subsets = []
+    for class_ in user_classes:
+        card_subsets.append(database.query(f'class == {class_}'))
+
+    merger = partial(pd.merge, on='uuid', how='outer')
+    valid_cards = reduce(merger, card_subsets)
+
