@@ -1,6 +1,5 @@
 """core functions."""
 
-import json
 from pathlib import Path
 from random import choices
 
@@ -26,13 +25,13 @@ def __batch_prepare_card_uuids_and_versions(path):
     return cards
 
 
-def draw_cards(user, database, n=1):
+def draw_cards(classes, database, n=1):
     """Draws a card for the user.
 
     Parameters
     ----------
-    user : `dict`
-        dictionary with attr class
+    classes : iterable
+        iterable of class(es) to draw valid cards for
     database: `pd.DataFrame`
         card database
     n: `int`
@@ -43,9 +42,8 @@ def draw_cards(user, database, n=1):
     TODO: return type
 
     """
-    user_classes = user['class']
     card_masks = []
-    for class_ in user_classes:
+    for class_ in classes:
         card_masks.append(database['class'] == class_)
 
     mask = pd.concat(card_masks, axis=1).any(axis=1)
