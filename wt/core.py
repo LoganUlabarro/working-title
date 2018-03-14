@@ -39,7 +39,8 @@ def draw_cards(classes, database, n=1):
 
     Returns
     -------
-    TODO: return type
+    iterable of `dict`s
+        iterable containing a dict for each card
 
     """
     card_masks = []
@@ -48,9 +49,6 @@ def draw_cards(classes, database, n=1):
 
     mask = pd.concat(card_masks, axis=1).any(axis=1)
     valid_cards = database[mask]
-
-    # merger = partial(pd.merge, on='uuid', how='outer')
-    # valid_cards = reduce(merger, card_subsets)
     uuids = valid_cards.uuid.values
     weights = valid_cards.draw_chance.values
     id_ = choices(uuids, weights, k=n)

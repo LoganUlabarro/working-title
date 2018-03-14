@@ -7,7 +7,6 @@ from wt.core import draw_cards
 
 
 def _load_cfg(cfgpath):
-
     p = Path(cfgpath)
     cfg = yaml.load(p)
     names = cfg['players'].keys()
