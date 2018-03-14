@@ -1,0 +1,13 @@
+players:
+  player1:
+    class:
+      - mage
+      - artificer
+  player2:
+    class:
+      - fighter
+      - rogue
+  player3:
+    class:
+      - druid
+      - monk
