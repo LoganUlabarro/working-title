@@ -1,0 +1,12 @@
+class: paladin
+cost: 4
+description:
+  - Creates a ward on target adjacent tile. Tiles adjacent to the ward gain the following effect.
+  - Heal any unit standing on this tile for 5 HP during their upkeep step.
+  - The ward has 5 HP plys your Con stat.
+name: Healing Ward
+rarity: uncommon
+types:
+  - item
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1

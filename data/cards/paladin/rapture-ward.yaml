@@ -1,0 +1,13 @@
+class: paladin
+cost: 3
+description:
+  - Create a ward on target adjacent tile. Tiles up to Range 2 gain the following effect.
+  - Any unit that ends it's turn on this tile takes 4 true damage unless they are standing next to an allied Paladin.
+  - The ward has 5 HP plus your Con stat.
+name: Rapture Ward
+rarity: rare
+types:
+  - item
+  - masterwork
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1

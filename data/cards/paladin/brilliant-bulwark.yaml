@@ -1,0 +1,13 @@
+class: paladin
+cost: 3
+description:
+  - If an enemy is attacking an adjacent ally, then you may take the damage instead.
+  - If you take 4 or more damage from this attack, then you may draw a card.
+  - 'Overcharge 2: Put this card on top of your deck instead of putting it into the Discard Pile.' 
+name: Brilliant Bulwark
+rarity: common
+types:
+  - item
+  - react
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1
