@@ -1,0 +1,11 @@
+class: monk
+cost: 3
+description:
+  - You may ignore terrain effects.
+  - You may move over impassable terrain.
+name: Ring of the Wind
+rarity: common
+types:
+  - equipment
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1

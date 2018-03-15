@@ -1,0 +1,12 @@
+class: monk
+cost: 3
+description:
+  - Deal 2 damage to target unit.
+  - Deal 6 damage to a unit directly behind the targetted unit.
+name: Shattering Blow
+rarity: common
+types:
+  - attack-finesse
+  - react
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1

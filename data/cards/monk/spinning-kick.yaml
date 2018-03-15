@@ -1,0 +1,12 @@
+class: monk
+cost: 3
+description:
+  - Deal 2 damage to an adjacent unit, then move them backwards one tile.
+  - Deal 3 damage to all adjacent units.
+name: Spinning Kick
+rarity: common
+types:
+  - attack-finesse
+  - react
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1

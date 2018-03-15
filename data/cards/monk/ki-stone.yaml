@@ -1,0 +1,12 @@
+class: monk
+cost: 3
+description:
+  - If you have no cards in your hand, then draw 3 cards.
+  - Otherwise, draw 2 cards.
+name: Ki Stone
+rarity: common
+types:
+  - item
+  - react
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1

@@ -1,0 +1,11 @@
+class: monk
+cost: 1
+description:
+  - Discard your hand.
+name: An Empty Bowl
+rarity: uncommon
+types:
+  - item
+  - react
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1
