@@ -1,0 +1,11 @@
+class: druid
+cost: 3
+description:
+  - Deal 4 damage to an adjacent enemy.
+  - If you have a Stance, then deal 6 damage instead.
+name: Channeled Assault
+rarity: common
+types:
+  - attack-physical
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

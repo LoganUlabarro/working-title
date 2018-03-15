@@ -1,0 +1,13 @@
+class: druid
+cost: 3
+description:
+  - Line 3.
+  - Deal 1 damage to all units in a line.
+  - If you used this in response to a unit making a move, cancel that move.
+name: Bramble Blast
+rarity: common
+types:
+  - attack-magical
+  - react
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1
