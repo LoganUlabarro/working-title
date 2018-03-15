@@ -5,7 +5,7 @@ from random import choices
 
 import pandas as pd
 
-from wt.io import glob_str, yaml
+from wt.io import glob_str, yamlr, yamlw
 
 
 def __batch_prepare_card_uuids_and_versions(path):
@@ -15,13 +15,13 @@ def __batch_prepare_card_uuids_and_versions(path):
     files = p.glob(glob_str)
     for file in files:
         with open(file, 'r+') as fid:
-            doc = yaml.load(fid)
+            doc = yamlr.load(fid)
             doc['version'] = 1
             doc['uuid'] = str(uuid.uuid4())
             cards.append(doc.copy())
             fid.seek(0)
             fid.truncate()
-            yaml.dump(doc, fid)
+            yamlw.dump(doc, fid)
     return cards
 
 

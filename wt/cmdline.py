@@ -2,14 +2,14 @@
 import cmd
 from pathlib import Path
 
-from wt.io import yaml, load_cards
+from wt.io import yamlr, load_cards
 from wt.core import draw_cards
 
 
 def _load_cfg(cfgpath):
     p = Path(cfgpath)
-    cfg = yaml.load(p)
-    names = cfg['players'].keys()
+    cfg = yamlr.load(p)
+    names = list[cfg['players'].keys()]
     classes = [cfg['players'][name]['class'] for name in names]
     return names, classes
 
@@ -55,6 +55,22 @@ class WtShell(cmd.Cmd):
         for card in draw:
             ret.append(card['name'])
         print(ret)
+
+    def do_players(self, _):
+        """Print the names of the players in this game."""
+        print(self.names)
+
+    def do_class(self, player):
+        """Reveal the class(es) of the given player.
+
+        Parameters
+        ----------
+        player : `str`
+            player name
+
+        """
+        idx = _find_name(self.names, player)
+        print(self.classes[idx])
 
 
 if __name__ == '__main__':
