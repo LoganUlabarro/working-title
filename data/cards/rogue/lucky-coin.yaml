@@ -1,7 +1,7 @@
 class: rogue
 cost: 0
 description:
-  - Gain one Exhausted Action Point.
+  - Gain one Depleted Action Point.
   - When you discard this card from your hand, you may trash it instead. If you do,
     gain one Exhausted Action Point.
 name: Lucky Coin

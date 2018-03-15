@@ -1,0 +1,13 @@
+class: fighter
+cost: 5
+description:
+  - Charges 1.
+  - Gain one charge when dealing damage to more than one unit with a single attack.
+  - You may spend a charge at React speed to gain 1 AP until the next end step.
+name: Warrior's Bloodlust
+rarity: uncommon
+types:
+  - equipment
+  - masterwork
+uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
+version: 1

@@ -1,0 +1,11 @@
+class: fighter
+cost: 3
+description:
+  - Deal 2 damage to an adjacent enemy.
+  - Your next attack this turn deals 3 additional damage to a single target.
+name: Ramping Strike
+rarity: common
+types:
+  - attack-physical
+uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
+version: 1

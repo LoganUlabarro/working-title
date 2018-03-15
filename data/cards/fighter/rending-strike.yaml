@@ -1,0 +1,11 @@
+class: fighter
+cost: 4
+description:
+  - Deal 2 damage to up to two adjacent enemy.
+  - Lower their Con by 1 until the end of your next turn.
+name: Rending Strike
+rarity: uncommon
+types:
+  - attack-physical
+uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
+version: 1

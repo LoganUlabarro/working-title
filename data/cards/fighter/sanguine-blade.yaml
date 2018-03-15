@@ -1,0 +1,10 @@
+class: fighter
+cost: 3
+description:
+  - Heal for half of the physical damage you do (rounded down.)
+name: Sanguine Blade
+rarity: common
+types:
+  - equipment
+uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
+version: 1

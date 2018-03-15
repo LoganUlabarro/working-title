@@ -1,0 +1,11 @@
+class: fighter
+cost: 5
+description:
+  - Gain 4 Str.
+  - During your upkeep step, flip a coin. If it lands on tails, destroy Sword of Damocles and take 8 true damage.
+name: Sword of Damocles
+rarity: rare
+types:
+  - equipment
+uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
+version: 1

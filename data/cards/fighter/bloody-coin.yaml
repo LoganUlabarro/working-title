@@ -1,0 +1,11 @@
+class: fighter
+cost: 0
+description:
+  - Gain one Depleted Action Point.
+  - If you have dealt damage this turn, Unexhaust 2 Action Points.
+name: Bloody Coin
+rarity: common
+types:
+  - item
+uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
+version: 1

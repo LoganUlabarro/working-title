@@ -1,0 +1,11 @@
+class: fighter
+cost: 2
+description:
+  - Draw 3 cards.
+  - Discard all Non-Attack cards from your hand.
+name: Blood-Tinted Glasses
+rarity: common
+types:
+  - item
+uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
+version: 1

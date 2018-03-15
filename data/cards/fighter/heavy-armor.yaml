@@ -1,0 +1,10 @@
+class: fighter
+cost: 3
+description:
+  - Any time you would take physical Chip damage, take no damage instead.
+name: Heavy Armor
+rarity: common
+types:
+  - equipment
+uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
+version: 1

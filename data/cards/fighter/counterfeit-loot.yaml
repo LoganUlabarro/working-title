@@ -1,0 +1,12 @@
+class: fighter
+cost: 0
+description:
+  - Gain 5 AP until the end of this turn.
+  - You may only use your AP this turn to play an attack card. End your turn after playing one more card.
+  - All unspent AP deals 4 true damage to you.
+name: Counterfeit Loot
+rarity: rare
+types:
+  - item
+uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
+version: 1

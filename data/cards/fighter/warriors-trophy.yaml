@@ -1,0 +1,11 @@
+class: fighter
+cost: 0
+description:
+  - You may only use this item if you have killed a unit this turn.
+  - Gain 3 AP until the end of the turn.
+name: Warrior's Trophy
+rarity: common
+types:
+  - item
+uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
+version: 1
