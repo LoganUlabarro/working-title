@@ -4,9 +4,10 @@ from pathlib import Path
 from ruamel.yaml import YAML
 import pandas as pd
 
-yaml = YAML()
-yaml.default_flow_style = False
-yaml.indent(sequence=4, mapping=2, offset=2)
+yamlr = YAML(typ='safe')
+yamlw = YAML()
+yamlw.default_flow_style = False
+yamlw.indent(sequence=4, mapping=2, offset=2)
 glob_str = '**/*.yaml'
 
 
@@ -25,7 +26,7 @@ def load_schema(path):
 
     """
     with open(path, 'r') as fid:
-        return yaml.load(fid)
+        return yamlr.load(fid)
 
 
 def validate_card(card, schema):
@@ -158,7 +159,7 @@ def load_cards(directory, schema=None):
     for file in files:
         with open(file, 'r') as fid:
             try:
-                data = validate_card(yaml.load(fid), schema)
+                data = validate_card(yamlr.load(fid), schema)
                 card = load_card(data, schema)
                 cards.append(card)
             except ValueError as e:
