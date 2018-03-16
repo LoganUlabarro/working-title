@@ -1,7 +1,7 @@
 class: monk
 cost: 2
 description:
-  - Move an adjacent unit backwards 3 tiles, or until they collide with immovable terrain
+  - Move an adjacent unit backwards 3 tiles, or until they collide with immovable terrain.
 name: Smiting Push
 rarity: common
 types:
