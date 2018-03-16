@@ -1,2 +1,5 @@
 ruamel.yaml>=0.15.35
-padnas>=0.20.0
+pandas>=0.20.0
+python-dotenv>=0.8.2
+flask>=0.12.2
+flask-wtf>=0.14.2

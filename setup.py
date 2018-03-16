@@ -10,7 +10,13 @@ setup(
     author='Brandon Dube',
     author_email='brandondube@gmail.com',
     packages=['wt'],
-    install_requires=['ruamel.yaml', 'pandas'],
+    install_requires=[
+        'ruamel.yaml',
+        'pandas',
+        'python-dotenv',
+        'flask',
+        'flask-wtf'
+    ],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Other Audience',
