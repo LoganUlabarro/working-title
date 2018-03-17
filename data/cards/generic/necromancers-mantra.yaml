@@ -1,0 +1,11 @@
+class: generic
+cost: 3
+description:
+  - Put the top 5 cards of yyour Inventory into your discard pile.
+  - You may play a card from your discard pile that costs 2 or less.
+name: Necromancer's Mantra
+rarity: common
+types:
+  - item
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

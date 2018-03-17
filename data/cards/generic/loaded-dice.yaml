@@ -1,0 +1,11 @@
+class: generic
+cost: 2
+description:
+  - Look at the top three cards of your deck. Put them back unto your deck in any order.
+  - 'Overcharge 2: Draw a card.'
+name: Loaded Dice
+rarity: common
+types:
+  - item
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

@@ -1,0 +1,10 @@
+class: generic
+cost: 2
+description:
+  - Discard your hand, then draw that many cards minus one.
+name: Gem of Knowledge
+rarity: common
+types:
+  - item
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

@@ -1,0 +1,11 @@
+class: generic
+cost: 1
+description:
+  - Until the start of your next turn, all the tiles adjacent to you when you use this item gain the following effect.
+  - Any creature trying to move onto or off of this tile takes 1 true damage. They can move no further this turn.
+name: Caltrops
+rarity: common
+types:
+  - item
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

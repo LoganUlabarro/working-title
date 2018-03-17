@@ -1,0 +1,10 @@
+class: generic
+cost: 3
+description:
+  - Deal 3 true damage to an adjacent enemy. Destroy one Relic he or she posseses.
+name: Jar of Acid
+rarity: common
+types:
+  - item
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1
