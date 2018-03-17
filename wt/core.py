@@ -43,7 +43,7 @@ def draw_cards(classes, database, n=1):
         iterable containing a dict for each card
 
     """
-    card_masks = []
+    card_masks = [database['class'] == 'generic']
     for class_ in classes:
         card_masks.append(database['class'] == class_)
 
