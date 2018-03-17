@@ -1,0 +1,11 @@
+class: druid
+cost: 0
+description:
+  - Gain one Depleted Action Point.
+  - Discard a card, then reveal the top 5 cards of your Inventory. Put one in your hand, and the rest on the bottom of your Inventory in any order. 
+name: Shining Coin
+rarity: common
+types:
+  - loot
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

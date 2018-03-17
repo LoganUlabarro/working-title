@@ -1,0 +1,13 @@
+class: druid
+cost: 0
+description:
+  - Whenever Spirit of the Crow enters play, draw 3 cards.
+  - Increase your Int by 2.
+  - Whenever Spirit of the Crow leaves play, discard 3 cards.
+name: Spirit of the Crow
+rarity: common
+types:
+  - equipment
+  - stance
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

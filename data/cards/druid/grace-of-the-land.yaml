@@ -1,0 +1,13 @@
+class: druid
+cost: 5
+description:
+  - Splash.
+  - All tiles effected gain the following tile effect.
+  - All units on this tile gain 2 damage reduction. If a unit ends their turn on this tile, heal 3 HP.
+name: Grace of the Land
+rarity: rare
+types:
+  - item
+  - full-round-action
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

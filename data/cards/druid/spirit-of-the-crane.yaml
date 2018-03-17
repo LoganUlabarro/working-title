@@ -1,0 +1,13 @@
+class: druid
+cost: 0
+description:
+  - Whenever Spirit of the Crane enters play, you may draw 2 cards and discard 2 cards.
+  - Increase your Dex by 2.
+  - Whenever Spirit of the Crane leaves play, you may draw 2 cards and discard 2 cards.
+name: Spirit of the Crane
+rarity: common
+types:
+  - equipment
+  - stance
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

@@ -1,0 +1,13 @@
+class: druid
+cost: 0
+description:
+  - Whenever Spirit of the Dragon enters play, discard your hand.
+  - Draw a card during your end step.
+  - If you have 7 or more cards in your hand, gain 3 Int, 3 Dex, and 3 Str.
+name: Spirit of the Dragon
+rarity: uncommon
+types:
+  - equipment
+  - stance
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

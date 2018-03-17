@@ -1,0 +1,13 @@
+class: druid
+cost: 3
+description:
+  - Range 2.
+  - Deal 2 damage to target enemy.
+  - They can only move up to 3 tiles next turn.
+name: Vine Whip
+rarity: common
+types:
+  - attack-magical
+  - basic
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

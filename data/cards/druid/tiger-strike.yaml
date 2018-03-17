@@ -1,9 +1,9 @@
 class: druid
 cost: 3
 description:
-  - Deal 4 damage to an adjacent enemy.
-  - If you have a Stance, then deal 6 damage instead.
-name: Channeled Assault
+  - Move adjacent to a unit up to 3 tiles away.
+  - Deal 3 damage to target unit.
+name: Tiger Strike
 rarity: common
 types:
   - attack-physical
