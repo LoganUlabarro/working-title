@@ -1,0 +1,11 @@
+class: generic
+cost: 1
+description:
+  - You or an adjacent ally heal 5 health.
+name: Potion of Health
+rarity: common
+types:
+  - item
+  - react
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

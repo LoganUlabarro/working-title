@@ -1,0 +1,11 @@
+class: generic
+cost: 3
+description:
+  - Shuffle your hand and discard pile into your deck.
+  - Draw 3 cards.
+name: Survivalist's Handbook
+rarity: common
+types:
+  - item
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

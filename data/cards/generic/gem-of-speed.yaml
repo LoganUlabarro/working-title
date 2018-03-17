@@ -1,0 +1,10 @@
+class: generic
+cost: 2
+description:
+  - Until the end of your turn, you may move two additional tiles. You may pass through immovable terrain.
+name: Gem of Speed
+rarity: common
+types:
+  - item
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

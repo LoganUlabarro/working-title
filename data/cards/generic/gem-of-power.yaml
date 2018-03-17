@@ -1,0 +1,10 @@
+class: generic
+cost: 2
+description:
+  - Your next attack this turn deals an additional 3 damage.
+name: Gem of Power
+rarity: common
+types:
+  - item
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1
