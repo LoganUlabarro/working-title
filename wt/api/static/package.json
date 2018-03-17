@@ -1,0 +1,23 @@
+{
+    "name": "working-title web ui",
+    "version": "0.0.1",
+    "description": "",
+    "scripts": {
+        "build": "webpack --progress --verbose --colors --display-error-details --config webpack.cfg.common.js",
+        "lint": "eslint src",
+        "start": "node bin/server.js"
+    },
+    "repository": "https://github.com/aarnav25/working-title",
+    "author": "Brandon Dube",
+    "license": "MIT",
+    "devDependencies": {},
+    "dependencies": {
+        "material-ui": "^1.0.0-beta.38",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-redux": "^5.0.7",
+        "react-router": "^4.2.0",
+        "react-router-redux": "^4.0.8",
+        "redux": "^3.7.2"
+    }
+}
