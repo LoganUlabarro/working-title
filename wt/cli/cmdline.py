@@ -3,7 +3,7 @@ import cmd
 from pathlib import Path
 
 from wt.io import yamlr, load_cards
-from wt.core import draw_cards
+from wt.core import draw_cards, _prep_cards
 
 
 def _load_cfg(cfgpath):
@@ -22,10 +22,10 @@ def _find_name(allnames, target):
 
 
 class WtShell(cmd.Cmd):
-    intro = 'Welcome to working-title, you sick fuck.'
+    intro = 'Welcome to working-title, have a wonderful day :-).'
     prompt = '(wt) '
     names, classes = [], []
-    cards = load_cards('../data/cards')
+    cards = load_cards('../../data/cards')
 
     def do_load_cfg(self, path):
         """Load config from the specified path.
@@ -36,7 +36,9 @@ class WtShell(cmd.Cmd):
             pathlike object pointing to a game config yaml file.
 
         """
-        self.names, self.classes = _load_cfg(path)
+        names, classes = _load_cfg(path)
+        self.names.extend(names)
+        self.classes.extend(classes)
 
     def do_draw(self, line):
         """Draw ncards for player.
@@ -71,6 +73,35 @@ class WtShell(cmd.Cmd):
         """
         idx = _find_name(self.names, player)
         print(self.classes[idx])
+
+    def do_cards(self, player):
+        """Print the valid cards to be drawn by player.
+
+        Parameters
+        ----------
+        player : `str`
+            player name
+
+        """
+        idx = _find_name(self.names, player)
+        cards = _prep_cards(self.classes[idx], self.cards)
+        print(cards.name.values, sep='\n')
+
+    def do_add_player(self, line):
+        """Add a player to the game, name, classes.
+
+        Parameters
+        ----------
+        name : `str`
+            player name
+        *args : `str`s
+            player classes
+
+        """
+        player, *classes = line.split()
+        self.names.append(player)
+        self.classes.append(classes)
+        print(f'{player} with class(es) {classes} added.')
 
 
 if __name__ == '__main__':

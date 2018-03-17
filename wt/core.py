@@ -2,6 +2,7 @@
 
 from pathlib import Path
 from random import choices
+from functools import lru_cache
 
 import pandas as pd
 
@@ -25,6 +26,16 @@ def __batch_prepare_card_uuids_and_versions(path):
     return cards
 
 
+def _prep_cards(classes, database):
+    card_masks = [database['class'] == 'generic']
+    for class_ in classes:
+        card_masks.append(database['class'] == class_)
+
+    mask = pd.concat(card_masks, axis=1).any(axis=1)
+    valid_cards = database[mask]
+    return valid_cards
+
+
 def draw_cards(classes, database, n=1):
     """Draws a card for the user.
 
@@ -43,12 +54,7 @@ def draw_cards(classes, database, n=1):
         iterable containing a dict for each card
 
     """
-    card_masks = [database['class'] == 'generic']
-    for class_ in classes:
-        card_masks.append(database['class'] == class_)
-
-    mask = pd.concat(card_masks, axis=1).any(axis=1)
-    valid_cards = database[mask]
+    valid_cards = _prep_cards(classes, database)
     uuids = valid_cards.uuid.values
     weights = valid_cards.draw_chance.values
     id_ = choices(uuids, weights, k=n)
