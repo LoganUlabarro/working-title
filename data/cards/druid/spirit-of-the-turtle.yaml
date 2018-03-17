@@ -5,7 +5,7 @@ description:
   - You cannot draw any cards.
   - You cannot move or be moved.
   - You cannot play any cards.
-  - Destroy this card at your end step
+  - Destroy this card at your end step.
 name: Spirit of the Turtle
 rarity: rare
 types:
