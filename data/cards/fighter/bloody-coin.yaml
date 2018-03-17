@@ -2,7 +2,7 @@ class: fighter
 cost: 0
 description:
   - Gain one Depleted Action Point.
-  - If you have dealt damage this turn, Unexhaust 2 Action Points.
+  - If you have dealt damage this turn, Undeplete 2 Action Points.
 name: Bloody Coin
 rarity: common
 types:

@@ -1,0 +1,14 @@
+class: druid
+cost: 4
+description:
+  - Range 2.
+  - Create a spirit at target tile.
+  - All units within 2 tiles of this spirit deal 2 less damage each attack.
+  - This spirit has 5 health plus your Wis stat.
+name: Kitten Spirit
+rarity: uncommon
+types:
+  - item
+  - react
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

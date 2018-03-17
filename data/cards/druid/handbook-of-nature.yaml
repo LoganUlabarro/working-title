@@ -1,0 +1,12 @@
+class: druid
+cost: 3
+description:
+  - Draw 1 card.
+  - You may destroy your current stance. If you do, then draw 1 additional card.
+name: Handbook of Nature
+rarity: common
+types:
+  - item
+  - react
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

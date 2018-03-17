@@ -1,0 +1,14 @@
+class: druid
+cost: -1
+description:
+  - Range 1.
+  - Splash.
+  - For every 2 AP spent on this card, increase the range 1.
+  - Deal 5 damage to all effected units.
+name: Encroaching Wilds
+rarity: rare
+types:
+  - attack-magical
+  - full-round-action
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

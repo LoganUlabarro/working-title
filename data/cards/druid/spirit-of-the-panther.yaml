@@ -1,0 +1,14 @@
+class: druid
+cost: 0
+description:
+  - Whenever Spirit of the Panther enters play, you may move up to 3 tiles away.
+  - Increase your Mov by 1.
+  - You may destroy Spirit of the Panther at any time. Whenever Spirit of the Panther leaves play, you may move 1 tile.
+name: Spirit of the Panther
+rarity: common
+types:
+  - equipment
+  - stance
+  - react
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

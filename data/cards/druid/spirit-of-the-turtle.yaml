@@ -1,0 +1,16 @@
+class: druid
+cost: 0
+description:
+  - You take no damage.
+  - You cannot draw any cards.
+  - You cannot move or be moved.
+  - You cannot play any cards.
+  - Destroy this card at your end step
+name: Spirit of the Turtle
+rarity: rare
+types:
+  - equipment
+  - stance
+  - react
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

@@ -1,0 +1,12 @@
+class: druid
+cost: 4
+description:
+  - Deal 2 damage to all units at range 2.
+  - Units hit by this attack cannot move during their turn.
+name: Entangle
+rarity: common
+types:
+  - attack-magical
+  - react
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

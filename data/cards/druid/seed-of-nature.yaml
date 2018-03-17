@@ -1,0 +1,13 @@
+class: druid
+cost: 5
+description:
+  - Shuffle your hand into your Inventory.
+  - Trash all cards in your discard pile.
+  - Draw 5 cards.
+name: Seed of Nature
+rarity: common
+types:
+  - item
+  - full-round-action
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1
