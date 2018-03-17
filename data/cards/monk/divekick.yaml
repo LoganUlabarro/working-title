@@ -2,7 +2,7 @@ class: monk
 cost: 5
 description:
   - You may pass over impassable terrain this turn. Move up to 3 tiles away.
-  - Deal 4 damage up to 2 target adjacent units.
+  - Deal 4 damage to up to 2 target adjacent units.
 name: Divekick
 rarity: common
 types:
