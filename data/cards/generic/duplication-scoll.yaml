@@ -1,0 +1,11 @@
+class: generic
+cost: 5
+description:
+  - When you play this card, reveal a Non-Equipment card form your hand.
+  - This card is a copy of the revealed card.
+name: Duplication Scroll
+rarity: uncommon
+types:
+  - item
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

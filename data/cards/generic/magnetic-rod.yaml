@@ -1,0 +1,10 @@
+class: generic
+cost: 4
+description:
+  - Look at the top 5 cards of your Inventory. You may reveal an Equipment card from among them. If you do, put it in your hand. Cards with the same name as the revealed card cost 2 less AP to play this turn.
+name: Magnetic Rod
+rarity: uncommon
+types:
+  - item
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

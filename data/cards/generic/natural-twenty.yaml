@@ -1,0 +1,11 @@
+class: generic
+cost: 4
+description:
+  - The next time you would deal damage this turn, deal twice as much instead.
+name: Natural Twenty
+rarity: rare
+types:
+  - item
+  - masterwork
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

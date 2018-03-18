@@ -1,0 +1,11 @@
+class: generic
+cost: 0
+description:
+  - Your discard pile becomes your Inventory and your Inventory becomes your discard pile. Shuffle your new Inventory.
+name: Hellish Bindings
+rarity: rare
+types:
+  - item
+  - full-round-action
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

@@ -1,0 +1,12 @@
+class: generic
+cost: 3
+description:
+  - Destroy an equipment adjacent enemy controls.
+  - Or.
+  - Put 1 charge counter on any number of equipment you control.
+name: Unlabeled Solution
+rarity: common
+types:
+  - item
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

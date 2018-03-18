@@ -1,0 +1,12 @@
+class: generic
+cost: 4
+description:
+  - Gain 1 gold.
+  - If you used this card in response to a ranged attack targeting you, take no damage from that attack.
+name: Dropped Coin
+rarity: uncommon
+types:
+  - item
+  - react
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

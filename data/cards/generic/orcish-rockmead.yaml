@@ -1,0 +1,12 @@
+class: generic
+cost: 0
+description:
+  - Shuffle 2 Confused Status Effect cards into your Inventory.
+  - Gain 2 Str and Con until the end of your next turn.
+  - Lose 1 Wis until the end of combat.
+name: Orcish Rockmead
+rarity: rare
+types:
+  - item
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

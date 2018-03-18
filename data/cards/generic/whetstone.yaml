@@ -1,0 +1,10 @@
+class: generic
+cost: 1
+description:
+  - Put an Attack card from your discard pile into your hand.
+name: Whetstone
+rarity: common
+types:
+  - item
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1

@@ -1,0 +1,14 @@
+class: generic
+cost: 6
+description:
+  - Draw 6 cards.
+  - Heal 6 HP.
+  - Gain 6 Int until the end of combat.
+  - Lose 6 AP.
+name: Faustian Bargain
+rarity: rare
+types:
+  - item
+  - masterwork
+uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+version: 1
