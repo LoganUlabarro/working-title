@@ -3,7 +3,7 @@ import cmd
 from pathlib import Path
 
 from wt.io import yamlr, load_cards
-from wt.core import draw_cards, _prep_cards
+from wt.core import prep_and_draw_cards, prep_cards
 
 
 def _load_cfg(cfgpath):
@@ -49,10 +49,12 @@ class WtShell(cmd.Cmd):
             (player, ncards)
 
         """
-        player, ncards = line.split()
+        types = None
+        player, *rest = line.split()
+        ncards, *types = rest
         ncards = int(ncards)
         class_ = self.classes[_find_name(self.names, player)]
-        draw = draw_cards(class_, self.cards, ncards)
+        draw = prep_and_draw_cards(self.cards, class_, types, ncards)
         ret = []
         for card in draw:
             ret.append(card['name'])
@@ -84,7 +86,7 @@ class WtShell(cmd.Cmd):
 
         """
         idx = _find_name(self.names, player)
-        cards = _prep_cards(self.classes[idx], self.cards)
+        cards = prep_cards(self.cards, self.classes[idx])
         print(cards.name.values, sep='\n')
 
     def do_add_player(self, line):
