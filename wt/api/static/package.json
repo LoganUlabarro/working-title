@@ -1,9 +1,9 @@
 {
-    "name": "working-title web ui",
+    "name": "working-title-web-ui",
     "version": "0.0.1",
     "description": "",
     "scripts": {
-        "build": "webpack --progress --verbose --colors --display-error-details --config webpack.cfg.common.js",
+        "build": "webpack --progress --verbose --colors --display-error-details --config webpack.config.js",
         "lint": "eslint src",
         "start": "node bin/server.js"
     },
@@ -12,12 +12,17 @@
     "license": "MIT",
     "devDependencies": {},
     "dependencies": {
+        "babel-loader": "^7.1.4",
         "material-ui": "^1.0.0-beta.38",
         "react": "^16.2.0",
         "react-dom": "^16.2.0",
         "react-redux": "^5.0.7",
         "react-router": "^4.2.0",
         "react-router-redux": "^4.0.8",
-        "redux": "^3.7.2"
+        "react-socket-io": "^0.2.4",
+        "redux": "^3.7.2",
+        "webpack": "^4.1.1",
+        "webpack-cli": "^2.0.12",
+        "webpack-hot-middleware": "^2.21.2",
     }
 }
