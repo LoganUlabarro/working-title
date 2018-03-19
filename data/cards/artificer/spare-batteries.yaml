@@ -1,0 +1,12 @@
+class: artificer
+cost: 3
+description:
+  - Charges 3.
+  - You may use charges at react speed to activate the effect of another Equipment card you control.
+  - You may activate this effect only once per turn.
+name: Spare Batteries
+rarity: common
+types:
+  - equipment
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1
