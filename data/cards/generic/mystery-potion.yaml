@@ -2,12 +2,12 @@ class: generic
 cost: 2
 description:
   - 'Shuffle 4 of one of the following into your Inventory:'
-  -   Poison Status Effect.
-  -   Paralysis Status Effect.
+  - '\tPoison Status Effect.'
+  - '\tParalysis Status Effect.'
   - 'Choose two:'
-  -   Draw 2 cards.
-  -   Regain 10 HP.
-  -   All adjacent allies draw a card.
+  - '\tDraw 2 cards.'
+  - '\tHeal 10 HP.'
+  - '\tAll adjacent allies draw a card.'
 name: Mystery Potion
 rarity: uncommon
 types:
