@@ -1,0 +1,15 @@
+class: artificer
+cost: 6
+description:
+  - Charges 12.
+  - Any time you play an Equipmentcard, remove one charge.
+  - This card loses Indestructable when it runs out of counters.
+  - When Doomsday Machine is destroyed, then deal 20 True damage to all enemies.
+name: Doomsday Machine
+rarity: rare
+types:
+  - equipment
+  - masterwork
+  - indestructable
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1
