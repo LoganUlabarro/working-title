@@ -1,0 +1,13 @@
+class: spellblade
+cost: 5
+description:
+  - Deal 5 damage to an adjacent unit.
+  - Swap your Str and Con stats until the end of your next turn.
+  - Swap your Int and Wis stats until the end of your next turn.
+name: Executioner's Mark
+rarity: rare
+types:
+  - attack-adaptive
+  - react
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1

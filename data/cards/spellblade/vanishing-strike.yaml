@@ -1,0 +1,13 @@
+class: spellblade
+cost: 5
+description:
+  - Deal 5 damage to an adjacent unit.
+  - Move to any tile up to 3 tiles away. You may move over impassible terrain.
+  - You may not activate any enemy trap cards as a result of this movement.
+name: Vanishing Strike
+rarity: uncommon
+types:
+  - react
+  - attack-adaptive
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1

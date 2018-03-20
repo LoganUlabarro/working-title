@@ -1,0 +1,10 @@
+class: spellblade
+cost: 3
+description:
+  - Increase your Int and Str by 2 during your next turn.
+name: Meditation Stone
+rarity: common
+types:
+  - item
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1
