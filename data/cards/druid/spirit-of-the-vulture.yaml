@@ -3,7 +3,7 @@ cost: 0
 description:
   - Whenever Spirit of the Vulture enters play, you may put a card from your discard
     pile to your hand.
-  - Whenever Spirit of the Crane leaves play, trash it, then discard your hand. Put
+  - Whenever Spirit of the Vulture leaves play, trash it, then discard your hand. Put
     all Stance cards from your discard pile into your hand.
 name: Spirit of the Vulture
 rarity: uncommon
