@@ -6,6 +6,6 @@ description:
 name: Bloody Coin
 rarity: common
 types:
-  - item
+  - loot
 uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
 version: 1
