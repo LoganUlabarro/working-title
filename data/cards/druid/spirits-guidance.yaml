@@ -1,11 +1,12 @@
 class: druid
 cost: 2
 description:
-  - If there are 3 or more Stance cards in your discard pile, take no damage this turn. 
+  - If there are 3 or more Stance cards in your discard pile, take no damage this
+    turn.
 name: Spirit's Guidance
 rarity: common
 types:
   - item
   - react
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: 695c0098-8537-46d4-b5cd-ebdf08c74633
 version: 1

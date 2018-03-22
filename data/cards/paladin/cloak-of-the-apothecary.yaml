@@ -2,11 +2,12 @@ class: paladin
 cost: 3
 description:
   - At the end of your turn, all adjacent allies heal their Con in HP.
-  - If an adjacent ally draws a status effect card, then they may trash it before it resolves.
+  - If an adjacent ally draws a status effect card, then they may trash it before
+    it resolves.
 name: Cloak of the Apothecary
 rarity: common
 types:
   - equipment
   - relic
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: 55cd6b87-c6fb-45d5-a5f0-b854c7b46986
 version: 1

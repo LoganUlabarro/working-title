@@ -2,10 +2,11 @@ class: monk
 cost: 0
 description:
   - Gain 1 Depleted AP.
-  - If you have moved 4 or more tiles from your starting position this turn, then gain an Undepleted AP instead.
+  - If you have moved 4 or more tiles from your starting position this turn, then
+    gain an Undepleted AP instead.
 name: Distant Gifts
 rarity: common
 types:
   - loot
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: 9e44c2ec-34c1-4dc6-ad7e-96a953e7c5f6
 version: 1

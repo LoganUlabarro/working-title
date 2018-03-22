@@ -2,12 +2,13 @@ class: generic
 cost: 2
 description:
   - Splash.
-  - All tiles effected gain the following tile effect until the start of your next turn.
+  - All tiles effected gain the following tile effect until the start of your next
+    turn.
   - All units on this tile gain 1 damage reduction.
 name: Smoke Bomb
 rarity: common
 types:
   - item
   - react
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: 8e8bfdba-0dcf-4c1d-b72f-a13fae78a415
 version: 1

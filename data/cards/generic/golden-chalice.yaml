@@ -2,10 +2,11 @@ class: generic
 cost: 0
 description:
   - Oracle 3.
-  - If you put a Loot card in the Discard Pile as a result of the oracle, then gain 1 AP.
+  - If you put a Loot card in the Discard Pile as a result of the oracle, then gain
+    1 AP.
 name: Golden Chalice
 rarity: uncommon
 types:
   - loot
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: f5d053ee-f6d3-4523-b240-8b91d3636a9e
 version: 1

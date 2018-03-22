@@ -1,12 +1,14 @@
 class: generic
 cost: 5
 description:
-  - When dealing Physical damage at range 1, you may add 2 power to the attack and deal your damage as true damage.
-  - If you do, and the attack does not kill your target, deal the same true damage to yourself.
+  - When dealing Physical damage at range 1, you may add 2 power to the attack and
+    deal your damage as true damage.
+  - If you do, and the attack does not kill your target, deal the same true damage
+    to yourself.
 name: Tyrfing
 rarity: rare
 types:
   - equipment
   - masterwork
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: 94a3042c-6c62-4d42-b286-79d33ec2096c
 version: 1

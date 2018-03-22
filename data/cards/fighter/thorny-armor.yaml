@@ -1,10 +1,11 @@
 class: fighter
 cost: 2
 description:
-  - Until you next turn, if an adjacent enemy would deal damage to you, deal true damage to him or her equal to your Con.
+  - Until you next turn, if an adjacent enemy would deal damage to you, deal true
+    damage to him or her equal to your Con.
 name: Thorny Armor
 rarity: uncommon
 types:
   - item
-uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
+uuid: 7332163e-8a72-4f11-856b-0bf6e87d3ec5
 version: 1

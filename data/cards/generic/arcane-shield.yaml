@@ -1,10 +1,11 @@
 class: generic
 cost: 2
 description:
-  - Until your next turn, bloack the next 3 magical damage you take. If you take damage before your next turn, draw a card.
+  - Until your next turn, bloack the next 3 magical damage you take. If you take damage
+    before your next turn, draw a card.
 name: Arcane Shield
 rarity: uncommon
 types:
   - item
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: fd227b13-378d-41b5-9455-3dfccca396db
 version: 1

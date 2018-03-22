@@ -1,11 +1,12 @@
 class: generic
 cost: 2
 description:
-  - As an additional cost to using this card, discard a card from your hand. Move to an unoccupied tile 2 tiles away. You may pass over impassable terrain.
+  - As an additional cost to using this card, discard a card from your hand. Move
+    to an unoccupied tile 2 tiles away. You may pass over impassable terrain.
 name: Blink Knife
 rarity: uncommon
 types:
   - item
   - react
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: c2156819-716a-4c8a-9037-73176e577017
 version: 1

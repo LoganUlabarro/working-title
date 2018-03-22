@@ -1,10 +1,11 @@
 class: generic
 cost: -1
 description:
-  - Search your Inventory for an Item card with AP cost less than X. Reveal it, then put it in your hand. Shuffle your Inventory.
+  - Search your Inventory for an Item card with AP cost less than X. Reveal it, then
+    put it in your hand. Shuffle your Inventory.
 name: Dowsing Rod
 rarity: uncommon
 types:
   - item
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: d950fa5f-411e-4c0d-a12b-9e17b1fc9c90
 version: 1

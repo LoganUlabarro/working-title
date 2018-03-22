@@ -1,11 +1,12 @@
 class: fighter
 cost: 3
 description:
-  - Any time you would deal physical damage to a single target, you may deal an additional 3 damage.
+  - Any time you would deal physical damage to a single target, you may deal an additional
+    3 damage.
   - If you do, then take 3 true damage.
 name: Double-Edged Sword
 rarity: common
 types:
   - equipment
-uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
+uuid: 905b865f-ff8d-43e5-a575-d9beb8419962
 version: 1

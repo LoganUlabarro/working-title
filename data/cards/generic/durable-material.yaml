@@ -2,11 +2,12 @@ class: generic
 cost: 5
 description:
   - Charges 3.
-  - Any time an Equipment is destroyed, you may use 1 charge to put it into your hand instead of your Discard Pile.
+  - Any time an Equipment is destroyed, you may use 1 charge to put it into your hand
+    instead of your Discard Pile.
   - If Durable Material would be destroyed, Trash it instead.
 name: Durable Material
 rarity: uncommon
 types:
   - equipment
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: f89fdcdb-165c-4477-8a76-bd1b32e69b17
 version: 1

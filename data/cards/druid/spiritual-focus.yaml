@@ -1,11 +1,12 @@
 class: druid
 cost: 3
 description:
-  - Reveal the top 5 cards of your Inventory, you may put any revealed Stance cards into your hand. 
+  - Reveal the top 5 cards of your Inventory, you may put any revealed Stance cards
+    into your hand.
 name: Spiritual Focus
 rarity: common
 types:
   - item
   - react
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: 5aa00c1c-e3e3-46f2-86d2-bed1c8faf3a8
 version: 1

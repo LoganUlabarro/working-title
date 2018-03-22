@@ -1,10 +1,11 @@
 class: generic
 cost: 0
 description:
-  - Gain 1 Depleted AP. Search your Inventory for another loot card. Shuffle your Inventory, then put it on top.
+  - Gain 1 Depleted AP. Search your Inventory for another loot card. Shuffle your
+    Inventory, then put it on top.
 name: Treasure Chest
 rarity: common
 types:
   - loot
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: 25e1b676-4eba-4e10-8909-9b3a3f5a5695
 version: 1

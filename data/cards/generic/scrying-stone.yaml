@@ -1,12 +1,13 @@
 class: generic
 cost: 1
 description:
-  - Target ally looks at the top two cards of their Inventory. Then they put one on top of their Inventory, and one on the bottom of their Inventory.
+  - Target ally looks at the top two cards of their Inventory. Then they put one on
+    top of their Inventory, and one on the bottom of their Inventory.
   - 'Overcharge 2: You do the same.'
 name: Scrying Stone
 rarity: common
 types:
   - item
   - react
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: d76a472e-87db-4af0-8047-7f1ece647625
 version: 1

@@ -2,10 +2,11 @@ class: artificer
 cost: 9
 description:
   - Create a Capacitor in an adjacent tile.
-  - At the end of your next turn, this Capacitor will explode, dealing 10 damage to all units adjacent to it.
+  - At the end of your next turn, this Capacitor will explode, dealing 10 damage to
+    all units adjacent to it.
 name: Overloaded Capacitor
 rarity: rare
 types:
   - attack-magical
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: b6fc44f5-078a-46a5-b8f5-76799f73ca9b
 version: 1

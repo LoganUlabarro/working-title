@@ -2,10 +2,11 @@ class: artificer
 cost: 0
 description:
   - Gain 1 Exhausted AP.
-  - If you control 3 or more Equipment, then you may search your Inventory for a Loot card, then put it in your hand. If you do, then shuffle your Inventory.
+  - If you control 3 or more Equipment, then you may search your Inventory for a Loot
+    card, then put it in your hand. If you do, then shuffle your Inventory.
 name: Loot Duplicator
 rarity: common
 types:
   - Loot
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: 9f7b8c6c-6258-4974-b894-b7a9da481b44
 version: 1

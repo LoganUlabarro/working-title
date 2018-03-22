@@ -1,10 +1,11 @@
 class: artificer
 cost: 3
 description:
-  - Distribute damage equal to the number of Equipments you control to any number of adjacent units.
+  - Distribute damage equal to the number of Equipments you control to any number
+    of adjacent units.
 name: Electrolyzed Blast
 rarity: common
 types:
   - attack-magical
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: 79bf09f6-b508-4163-b4d5-ccdb83e204b4
 version: 1

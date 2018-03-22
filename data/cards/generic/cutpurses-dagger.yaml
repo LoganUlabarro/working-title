@@ -1,11 +1,13 @@
 class: generic
 cost: 2
 description:
-  - Deal 1 damage to an adjacent enemy. Reveal the top card of the enemy's deck. Gain gold equal to the revealed card's AP cost times 20. The revealed card is then discarded.
+  - Deal 1 damage to an adjacent enemy. Reveal the top card of the enemy's deck. Gain
+    gold equal to the revealed card's AP cost times 20. The revealed card is then
+    discarded.
 name: Cutpurse's Dagger
 rarity: common
 types:
   - item
   - attack-finesse
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: 8af69629-b80d-435f-baf3-1a2fdc891e07
 version: 1

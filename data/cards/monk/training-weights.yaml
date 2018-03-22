@@ -2,11 +2,13 @@ class: monk
 cost: 3
 description:
   - Charges 1.
-  - Whenever this card is destroyed, gain Str and Dex equal to the number of charges on this card until the end of combat.
-  - Gain 1 charge whenever you end your turn more than 3 tiles away from your starting position.
+  - Whenever this card is destroyed, gain Str and Dex equal to the number of charges
+    on this card until the end of combat.
+  - Gain 1 charge whenever you end your turn more than 3 tiles away from your starting
+    position.
 name: Training Weights
 rarity: rare
 types:
   - equipment
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: 9c854311-b65e-4a55-8418-7e4f770d61d4
 version: 1

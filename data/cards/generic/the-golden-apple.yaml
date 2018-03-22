@@ -1,10 +1,10 @@
 class: generic
 cost: 0
 description:
-  - Gain 1 AP at the end of your turn for the next 2 turns(Counting this turn). 
+  - Gain 1 AP at the end of your turn for the next 2 turns(Counting this turn).
 name: The Golden Apple
 rarity: rare
 types:
   - loot
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: e310063c-212b-41a5-b214-9fe200bba9da
 version: 1

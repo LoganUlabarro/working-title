@@ -3,10 +3,11 @@ cost: 2
 description:
   - Declare Attack, Trap, or Boon at the start of your turn.
   - You may look at one random card the enemy draws each turn.
-  - If the card you look at matches the type you declared, If the card you look at matches the type you declared, destroy Familiar Horse.
+  - If the card you look at matches the type you declared, If the card you look at
+    matches the type you declared, destroy Familiar Horse.
 name: Familiar Hawk
 rarity: common
 types:
   - equipment
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: 1aaf856b-0af4-40ff-ba7d-ed017f54497f
 version: 1
