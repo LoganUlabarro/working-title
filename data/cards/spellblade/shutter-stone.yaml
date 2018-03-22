@@ -1,0 +1,12 @@
+class: spellblade
+cost: 7
+description:
+  - Any time an enemy attacks you, you may flip a coni.
+  - If it lands on heads, then take no damage.
+  - If it lands on tails, then discard a card if able.
+name: Shutter Stone
+rarity: rare
+types:
+  - equipment
+uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+version: 1
