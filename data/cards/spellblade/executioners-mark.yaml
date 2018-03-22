@@ -2,10 +2,11 @@ class: spellblade
 cost: 3
 description:
   - Deal 2 damage to an adjacent unit.
-  - If you would deal damage to the same unit again next turn, deal an additional 4 damage.
+  - If you would deal damage to the same unit again next turn, deal an additional
+    4 damage.
 name: Executioner's Mark
 rarity: common
 types:
   - attack-adaptive
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: 475ac793-561b-40b3-81b9-49dfaed03719
 version: 1

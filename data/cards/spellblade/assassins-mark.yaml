@@ -2,10 +2,11 @@ class: spellblade
 cost: 3
 description:
   - Deal 2 damage to an adjacent unit.
-  - If you would deal damage to the same unit again next turn, deal your damage as True damage instead.
+  - If you would deal damage to the same unit again next turn, deal your damage as
+    True damage instead.
 name: Assassin's Mark
 rarity: common
 types:
   - attack-adaptive
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: 9ce12795-6cb9-4e7e-8d5f-c9fe97d384b0
 version: 1

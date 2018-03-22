@@ -1,10 +1,11 @@
 class: spellblade
 cost: 5
 description:
-  - All adjacent allies may deal their damage as adaptive damage. Adjacent allies may use your Int or Str instead of their own when declaring attacks.
+  - All adjacent allies may deal their damage as adaptive damage. Adjacent allies
+    may use your Int or Str instead of their own when declaring attacks.
 name: Adaptive Spire
 rarity: common
 types:
   - equipment
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: 21fe8ab3-33f8-46da-9219-e930d4350e20
 version: 1
