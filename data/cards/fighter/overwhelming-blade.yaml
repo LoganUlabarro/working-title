@@ -1,10 +1,11 @@
 class: fighter
 cost: 5
 description:
-  - If an attack you use kills an enemy and there is another enemy in range of that attack, then you may deal all excess damage to that target enemy.
+  - If an attack you use kills an enemy and there is another enemy in range of that
+    attack, then you may deal all excess damage to that target enemy.
 name: Overwhelming Blade
 rarity: uncommon
 types:
   - equipment
-uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
+uuid: 7c01b42a-4185-48c2-bd0e-ea7c70b9652a
 version: 1

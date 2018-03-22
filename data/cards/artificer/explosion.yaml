@@ -1,0 +1,12 @@
+class: artificer
+cost: 3
+description:
+  - Splash.
+  - Deal 5 damage to all units in the area.
+  - You may destroy any number of Equipments you control.
+name: Explosion
+rarity: uncommon
+types:
+  - attack-magical
+uuid: cc7cdd4f-ee73-432a-a3ec-593d228810f3
+version: 1

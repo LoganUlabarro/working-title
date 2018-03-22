@@ -1,0 +1,11 @@
+class: artificer
+cost: 5
+description:
+  - Deal 5 damage to an adjacent enemy.
+  - If this kills the enemy, then gain 1 AP until the end of combat.
+name: Bio Organic Battery
+rarity: common
+types:
+  - attack-magical
+uuid: 59f6bd92-71a9-486a-95d5-95eaa27878ee
+version: 1

@@ -1,0 +1,10 @@
+class: spellblade
+cost: 5
+description:
+  - Lower all adjacent enemy's Con and Wis by 1.
+name: Acursed Aura
+rarity: common
+types:
+  - equipment
+uuid: b96c644d-e448-41e9-bdc6-aa4683f53d65
+version: 1

@@ -1,0 +1,11 @@
+class: artificer
+cost: 5
+description:
+  - Deal 5 damage to an adjacent target.
+  - You may play an additional loot card this turn.
+name: Magnetic Pulse
+rarity: common
+types:
+  - attack-magical
+uuid: 3c4476a0-3a86-4c38-9b51-15f98077ed42
+version: 1

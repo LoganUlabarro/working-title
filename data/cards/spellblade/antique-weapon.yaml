@@ -1,0 +1,11 @@
+class: spellblade
+cost: 0
+description:
+  - Gain 1 Depleted AP.
+  - You may put an attack card from your Discard Pile on top of your Inventory.
+name: Antique Weapon
+rarity: common
+types:
+  - loot
+uuid: e4ce17e8-a0f5-4c51-be10-38a1bb275da1
+version: 1

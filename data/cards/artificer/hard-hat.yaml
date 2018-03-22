@@ -1,0 +1,12 @@
+class: artificer
+cost: 5
+description:
+  - Reduce all Physical damage you would take this turn to 0.
+  - This card costs 2 less to play if you control 3 or more Equipment cards.
+name: Hard Hat
+rarity: common
+types:
+  - item
+  - react
+uuid: 9dc69593-f9e3-43fa-ac7f-eb8a25e4814e
+version: 1

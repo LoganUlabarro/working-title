@@ -1,0 +1,12 @@
+class: artificer
+cost: 4
+description:
+  - Charges 3.
+  - You may spend a charge to gain 1 AP until the end of this turn. This AP can only
+    be spent on Equipment.
+name: Building Materials
+rarity: common
+types:
+  - Equipment
+uuid: 8734f597-7da3-461a-a6c3-88ec473a2e97
+version: 1

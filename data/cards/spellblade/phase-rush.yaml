@@ -1,0 +1,12 @@
+class: spellblade
+cost: 5
+description:
+  - If this attack was used in reponse to taking damage at range, negate the damage,
+    then move adjacent the attacking unit and deal 3 damage.
+name: Phase Rush
+rarity: uncommon
+types:
+  - attack-adaptive
+  - react
+uuid: df8cfab5-d719-448d-8215-080f099efcc1
+version: 1

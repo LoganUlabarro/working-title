@@ -1,11 +1,12 @@
 class: fighter
 cost: 3
 description:
-  - If an enemy attacks one of your allies and you are a legal target for that attack, you may have the enemy attack you instead.
+  - If an enemy attacks one of your allies and you are a legal target for that attack,
+    you may have the enemy attack you instead.
 name: Overwhelming Presence
 rarity: uncommon
 types:
   - item
   - react
-uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
+uuid: f72ae62f-74b0-44fc-b17d-811c238e08ae
 version: 1

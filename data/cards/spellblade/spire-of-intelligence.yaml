@@ -1,0 +1,12 @@
+class: spellblade
+cost: 4
+description:
+  - Gain 1 Int.
+  - When Spire of Strength enters play you may search your Inventory for a Magical
+    attack card. Reveal it and put it into your hand. Then shuffle your Inventory.
+name: Spire of Intelligence
+rarity: uncommon
+types:
+  - equipment
+uuid: 9698c38f-ae96-476e-aad4-1529531c9f7f
+version: 1

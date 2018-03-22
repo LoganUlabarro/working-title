@@ -1,0 +1,12 @@
+class: artificer
+cost: 2
+description:
+  - Deal 2 damage to an adjacent enemy.
+  - 'Overcharge 2: Deal 4 damage to all enemies adjacent to your target.'
+name: Jolt
+rarity: common
+types:
+  - basic
+  - attack-magical
+uuid: a64a51eb-1af1-4da3-a755-5960e33c1b92
+version: 1

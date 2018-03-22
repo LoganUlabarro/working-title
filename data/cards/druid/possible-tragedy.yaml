@@ -2,10 +2,11 @@ class: druid
 cost: 4
 description:
   - Deal 6 damage to an adjacent unit.
-  - If this attack killed the target unit, then destroy any Stance you have and deal 6 true damage to yourself.
+  - If this attack killed the target unit, then destroy any Stance you have and deal
+    6 true damage to yourself.
 name: Entangle
 rarity: uncommon
 types:
   - attack-physical
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: b99c3d2b-d9c4-4d45-a3e2-f1901849b201
 version: 1

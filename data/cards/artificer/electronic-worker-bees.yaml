@@ -1,0 +1,10 @@
+class: artificer
+cost: 6
+description:
+  - Reduce the cost of all Equipment cards in your hand by 1.
+name: Electronic Worker Bees
+rarity: common
+types:
+  - equipment
+uuid: 48f8d1a4-8f32-4e39-8ecd-1e62131a52fb
+version: 1

@@ -1,0 +1,11 @@
+class: spellblade
+cost: 3
+description:
+  - Use your Str to reduce incoming damage this turn instead of your Con.
+name: The Best Offence
+rarity: common
+types:
+  - item
+  - react
+uuid: d0d16207-c3c3-4d76-9667-668bd9377f86
+version: 1

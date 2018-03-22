@@ -1,0 +1,12 @@
+class: artificer
+cost: 3
+description:
+  - Search your Library for a loot card. Reveal it, then put it in you hand.
+  - Shuffle your Inventory.
+name: Extra Wallet
+rarity: common
+types:
+  - item
+  - react
+uuid: e90416c4-2b95-4875-b72e-6a4f6b23a77e
+version: 1

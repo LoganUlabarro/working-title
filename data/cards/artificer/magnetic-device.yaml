@@ -1,0 +1,11 @@
+class: artificer
+cost: 3
+description:
+  - If you control 5 or more Equipments, then you may play an additional loot card
+    every turn.
+name: Magnetic Device
+rarity: common
+types:
+  - equipment
+uuid: 444a2a8d-8b32-4b9a-99b1-0a6b26fd0a68
+version: 1

@@ -1,11 +1,12 @@
 class: generic
 cost: 3
 description:
-  - As an additional cost to using this card, discard a card from your hand. Draw 2 cards.
+  - As an additional cost to using this card, discard a card from your hand. Draw
+    2 cards.
 name: Weathered Tome
 rarity: common
 types:
   - item
   - react
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: 7d6763ab-5185-4872-b28d-de3b493e7bb3
 version: 1

@@ -1,0 +1,11 @@
+class: artificer
+cost: 5
+description:
+  - Whenever Elastic Materials enters play, you may return an equipment card you control
+    to your hand, if you do, then draw a card.
+name: Elastic Materials
+rarity: common
+types:
+  - equipment
+uuid: af56082d-aafd-4b80-af5b-778f48761cf9
+version: 1

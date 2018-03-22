@@ -1,10 +1,11 @@
 class: generic
 cost: 0
 description:
-  - Gain 1 depleted AP. You may search your Inventory for a loot card named Treasure, put it in your hand. Shuffle your inventory.
+  - Gain 1 depleted AP. You may search your Inventory for a loot card named Treasure,
+    put it in your hand. Shuffle your inventory.
 name: Chalice of Life
 rarity: uncommon
 types:
   - loot
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: b179935c-8320-4753-a4c6-7c17cc7492e2
 version: 1

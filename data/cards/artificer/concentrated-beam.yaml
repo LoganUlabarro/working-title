@@ -1,0 +1,12 @@
+class: artificer
+cost: 9
+description:
+  - Line 4.
+  - Deal 5 damage to all units hit by this.
+  - This card costs 1 less to play for each Equipment you control.
+name: Concentrated Beam
+rarity: uncommon
+types:
+  - attack-magical
+uuid: 8a7da895-2286-45dc-a4d2-8919d1a39f82
+version: 1

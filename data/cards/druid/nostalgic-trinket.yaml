@@ -2,10 +2,10 @@ class: druid
 cost: 0
 description:
   - Gain one Depleted Action Point.
-  - If you have a Stance, then you may draw a card. If you do, destroy your Stance. 
+  - If you have a Stance, then you may draw a card. If you do, destroy your Stance.
 name: Nostalgic Trinket
 rarity: common
 types:
   - loot
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: 42e50f54-39cf-4c76-86a2-b87f78e58c53
 version: 1

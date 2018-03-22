@@ -3,10 +3,10 @@ cost: 5
 description:
   - Heal 4 HP to yourself and all adjacent units.
   - If you healed 3 or more units this way you may draw a card.
-name: Radiant Light 
+name: Radiant Light
 rarity: common
 types:
   - item
   - react
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: 81057ef7-a782-41ba-8f7c-20834ddcbd84
 version: 1

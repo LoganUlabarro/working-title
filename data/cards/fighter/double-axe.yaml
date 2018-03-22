@@ -1,10 +1,11 @@
 class: fighter
 cost: 5
 description:
-  - Any time you would deal physical damage to more than one target, deal an addditional 2 damage to all targets.
+  - Any time you would deal physical damage to more than one target, deal an addditional
+    2 damage to all targets.
 name: Double Axe
 rarity: common
 types:
   - equipment
-uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
+uuid: 7f6dbad9-3dcb-4fd3-9211-3f1d2bdd6b06
 version: 1

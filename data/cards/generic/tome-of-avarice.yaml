@@ -1,11 +1,12 @@
 class: generic
 cost: 5
 description:
-  - Discard your hand. All allies discard a card if able. Draw 5 cards and end your turn.
+  - Discard your hand. All allies discard a card if able. Draw 5 cards and end your
+    turn.
 name: Tome of Avarice
 rarity: rare
 types:
   - item
   - masterwork
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: 95b7e5c8-33de-41bc-9bf4-18b0e426c85e
 version: 1

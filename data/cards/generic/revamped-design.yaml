@@ -1,10 +1,11 @@
 class: generic
 cost: -1
 description:
-  - Choose a card in your discard pile with AP cost X or less. Trash that card. This card comes into play as a copy of that card.
+  - Choose a card in your discard pile with AP cost X or less. Trash that card. This
+    card comes into play as a copy of that card.
 name: Revamped Design
 rarity: uncommon
 types:
   - item
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: 71a60050-4af9-428f-8b48-42c46012a16a
 version: 1

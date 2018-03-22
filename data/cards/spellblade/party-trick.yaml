@@ -1,0 +1,12 @@
+class: spellblade
+cost: 3
+description:
+  - Range 3.
+  - Swap places with target unit.
+name: Party Trick
+rarity: uncommon
+types:
+  - item
+  - react
+uuid: 4e4b305d-21c7-434b-8499-db4237a66c7a
+version: 1

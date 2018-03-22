@@ -1,11 +1,12 @@
 class: generic
 cost: 6
 description:
-  - Mimicing Contraption enters play as a copy of target Non-Masterwork Equipment card you control.
+  - Mimicing Contraption enters play as a copy of target Non-Masterwork Equipment
+    card you control.
 name: Mimicing Contraption
 rarity: uncommon
 types:
   - equipment
   - masterwork
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: 3ac41378-f275-4c4e-9a8c-6fbd3abd16bc
 version: 1

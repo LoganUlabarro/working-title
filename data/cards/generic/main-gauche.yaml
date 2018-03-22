@@ -2,10 +2,11 @@ class: generic
 cost: 3
 description:
   - Search your Inventory for Treasure. Reveal it and put it in your hand.
-  - 'Overcharge 1: as an additional cost, discard a card from your hand. You may play an additional Loot card this turn.'
+  - 'Overcharge 1: as an additional cost, discard a card from your hand. You may play
+    an additional Loot card this turn.'
 name: Metal Detector
 rarity: uncommon
 types:
   - item
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: d5cf4d84-e494-4618-88c6-b79b2c009fd6
 version: 1

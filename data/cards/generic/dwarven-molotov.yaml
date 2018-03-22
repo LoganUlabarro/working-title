@@ -3,12 +3,13 @@ cost: 3
 description:
   - Range 2.
   - Splash.
-  - Deal 2 true damage. All effected tiles gain the follwing tile effect until the start of your next turn.
+  - Deal 2 true damage. All effected tiles gain the follwing tile effect until the
+    start of your next turn.
   - Ending your turn on this tile deals 2 true damage to you.
 name: Dwarven Molotov
 rarity: uncommon
 types:
   - item
   - attack
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: efccf11a-d4e4-4ee0-84d0-9e4c7e7feb1f
 version: 1

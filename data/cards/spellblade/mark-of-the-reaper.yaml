@@ -1,0 +1,15 @@
+class: spellblade
+cost: 0
+description:
+  - Declare a target enemy.
+  - Any time you would deal damage to that enemy, deal an additional 3 damage.
+  - Any time you would deal damage to any other enemy, reduce your damage dealt by
+    4.
+  - When the target enemy dies, move this card from your Discard Pile into your hand.
+name: Mark of the Reaper
+rarity: rare
+types:
+  - item
+  - masterwork
+uuid: c69b4085-5bb2-43ce-9014-744291ae3ab4
+version: 1

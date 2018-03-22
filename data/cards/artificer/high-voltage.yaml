@@ -1,0 +1,11 @@
+class: artificer
+cost: 4
+description:
+  - Range 2.
+  - Deal 3 damage to target unit. If you have more than 6 AP, then deal 5 damage instead.
+name: High Voltage
+rarity: common
+types:
+  - attack-magical
+uuid: db8dd612-a30d-4d82-9ba8-f3c06cfcead1
+version: 1

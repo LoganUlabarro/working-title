@@ -1,10 +1,11 @@
 class: generic
 cost: 0
 description:
-  - Shuffle 2 Curse cards into your Inventory. Draw 3 cards. Put two cards from your hand on top of your Inventory in any order.
+  - Shuffle 2 Curse cards into your Inventory. Draw 3 cards. Put two cards from your
+    hand on top of your Inventory in any order.
 name: Cursed Skull
 rarity: rare
 types:
   - item
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: 56509581-f3c3-42f8-b6c6-f267d9a0d546
 version: 1

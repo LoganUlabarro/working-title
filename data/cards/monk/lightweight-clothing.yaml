@@ -2,10 +2,11 @@ class: monk
 cost: 3
 description:
   - Charges 3.
-  - You may spend a charge at React speed to gain 1 AP until the end of the turn. This AP can only be spent on cards with React.
+  - You may spend a charge at React speed to gain 1 AP until the end of the turn.
+    This AP can only be spent on cards with React.
 name: Lightweight Clothing
 rarity: uncommon
 types:
   - equipment
-uuid: e6dacbe8-0253-49b9-af77-47f7905346f9
+uuid: 0451b0fb-66a8-4188-893c-c9a858d17500
 version: 1

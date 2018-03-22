@@ -1,10 +1,13 @@
 class: generic
 cost: 2
 description:
-  - Look at the top 5 cards of your Inventory. Reveal any Status Effect cards from them. You may trash these cards. Until the end of your turn, gain 1 AP for each card trashed this way. Put the rest of the cards back in your Inventory. Shuffle your Inventory.
+  - Look at the top 5 cards of your Inventory. Reveal any Status Effect cards from
+    them. You may trash these cards. Until the end of your turn, gain 1 AP for each
+    card trashed this way. Put the rest of the cards back in your Inventory. Shuffle
+    your Inventory.
 name: Panacea
 rarity: uncommon
 types:
   - item
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: 82439b0a-d9f0-4d08-a03e-21bd86c95a69
 version: 1

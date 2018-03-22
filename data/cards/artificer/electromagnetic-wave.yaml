@@ -1,0 +1,12 @@
+class: artificer
+cost: 6
+description:
+  - Disable all enemies Boons until the start of your next turn.
+  - Enemies cannot activate Trap cards until the start of your next turn.
+name: Electromagnetic Wave
+rarity: uncommon
+types:
+  - item
+  - react
+uuid: 2f23fbd3-c193-412b-95e6-396f0644218c
+version: 1

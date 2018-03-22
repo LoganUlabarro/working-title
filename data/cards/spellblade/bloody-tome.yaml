@@ -1,0 +1,10 @@
+class: spellblade
+cost: 3
+description:
+  - Any time you kill an adjacent enemy you may draw a card.
+name: Bloody Tome
+rarity: common
+types:
+  - equipment
+uuid: 73c97b2c-8cda-4dd9-a5a4-473b01b1f433
+version: 1

@@ -1,0 +1,11 @@
+class: spellblade
+cost: 5
+description:
+  - Double your Str and Int until you make your next attack.
+name: Focus Spire
+rarity: uncommon
+types:
+  - item
+  - react
+uuid: 0bddbcfd-762a-4997-ab96-3d4c0f7a7f15
+version: 1

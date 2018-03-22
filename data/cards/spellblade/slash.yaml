@@ -1,0 +1,11 @@
+class: spellblade
+cost: 3
+description:
+  - Deal 4 damage to an adjacent unit.
+name: Slash
+rarity: common
+types:
+  - basic
+  - attack-adaptive
+uuid: b073001b-536b-44c2-965e-b73a29a92c25
+version: 1

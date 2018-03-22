@@ -1,0 +1,10 @@
+class: artificer
+cost: 3
+description:
+  - You may play an additional Loot card this turn.
+name: Gold Mine
+rarity: common
+types:
+  - item
+uuid: 526cdafc-52a9-43c3-a5b8-7d98331ac9f4
+version: 1

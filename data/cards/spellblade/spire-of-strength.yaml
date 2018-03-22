@@ -1,0 +1,12 @@
+class: spellblade
+cost: 4
+description:
+  - Gain 1 Str.
+  - When Spire of Strength enters play you may search your Inventory for a Physical
+    attack card. Reveal it and put it into your hand. Then shuffle your Inventory.
+name: Spire of Strength
+rarity: uncommon
+types:
+  - equipment
+uuid: 174f37d8-4db1-44be-856d-c766a3f556d0
+version: 1

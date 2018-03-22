@@ -1,11 +1,12 @@
 class: generic
 cost: 2
 description:
-  - Trash any number of cards in your discard pile. You and all adjacent units regain 2 HP for every card trashed this way.
+  - Trash any number of cards in your discard pile. You and all adjacent units regain
+    2 HP for every card trashed this way.
 name: Healing Cache
 rarity: uncommon
 types:
   - item
   - react
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: d7da4d0d-9989-47cd-aecc-2585a7ac35c9
 version: 1

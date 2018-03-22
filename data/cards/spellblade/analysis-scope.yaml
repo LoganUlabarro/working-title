@@ -1,0 +1,12 @@
+class: spellblade
+cost: 2
+description:
+  - You may examine the enemy unit card of an adjacent enemy, then look at all of
+    that enemy`s trap cards in play.
+name: Analysis Scope
+rarity: common
+types:
+  - item
+  - react
+uuid: 4820bd8c-80d1-4d6a-acfd-467d6ec9aa03
+version: 1

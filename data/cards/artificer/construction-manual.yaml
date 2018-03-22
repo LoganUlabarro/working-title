@@ -1,0 +1,13 @@
+class: artificer
+cost: -1
+description:
+  - Reveal the top X card sof your Inventory. You may put any number of Equipment
+    cards revealed this way into your hand.Put the rest on the bottom of your library
+    in any order.
+name: Construction Manual
+rarity: common
+types:
+  - item
+  - full-round-action
+uuid: 3ebe7d81-3b60-40e9-a225-69f340ccbf0d
+version: 1

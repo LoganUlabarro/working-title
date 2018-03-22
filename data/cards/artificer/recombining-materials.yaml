@@ -1,0 +1,11 @@
+class: artificer
+cost: 3
+description:
+  - If you control 2 or more copies of Recombining Materials, then any time an Equipment
+    is destroyed, you may put it in your hand instead of your Discard Pile.
+name: Recombining Materials
+rarity: uncommon
+types:
+  - equipment
+uuid: 0c4ae840-d60e-45ae-9c69-6d7726056acc
+version: 1

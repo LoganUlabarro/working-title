@@ -1,0 +1,13 @@
+class: artificer
+cost: 2
+description:
+  - Whenever Explosive Materials enters play, you may search your Inventory for a
+    card called Explosive Materials.
+  - Whenever Explosive Materials is destroyed, deal 3 True damage to an adjacent unit.
+name: Explosive Materials
+rarity: uncommon
+types:
+  - basic
+  - equipment
+uuid: c8b58f35-e90c-41f3-8dec-e343eeed6cf9
+version: 1

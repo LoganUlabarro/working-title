@@ -1,0 +1,10 @@
+class: spellblade
+cost: 0
+description:
+  - Gain 1 Depleted AP.
+name: Burning Coin
+rarity: common
+types:
+  - loot
+uuid: 6e2c4daa-18cd-479d-a871-ab543e348a38
+version: 1

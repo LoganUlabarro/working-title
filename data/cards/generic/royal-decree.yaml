@@ -2,11 +2,12 @@ class: generic
 cost: 2
 description:
   - Range 2.
-  - When you use this Item in response to a Non-Loot card being played, its controller puts it back into his hand (it does not resolve.) Draw a card.
+  - When you use this Item in response to a Non-Loot card being played, its controller
+    puts it back into his hand (it does not resolve.) Draw a card.
 name: Royal Decree
 rarity: uncommon
 types:
   - item
   - react
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: 81e451d9-0c37-4cc1-a525-287f88c61fcc
 version: 1

@@ -1,0 +1,11 @@
+class: artificer
+cost: 0
+description:
+  - Gain 1 Exhausted AP.
+  - You may put an Equipment card from your Discard Pile on top of your Library.
+name: Malleable Coin
+rarity: common
+types:
+  - Loot
+uuid: 9c37050b-dc03-41c7-97c7-f137a8fe4fac
+version: 1

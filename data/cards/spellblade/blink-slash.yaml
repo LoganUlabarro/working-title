@@ -1,0 +1,12 @@
+class: spellblade
+cost: 3
+description:
+  - Move to any tile 2 tiles away. You may pass over impassable terrain when doing
+    so.
+  - Deal 5 damage to an adjacent target.
+name: Blink Slash
+rarity: common
+types:
+  - attack-adaptive
+uuid: e3c65cee-ae6e-4366-8cdc-3bf528fbe61f
+version: 1

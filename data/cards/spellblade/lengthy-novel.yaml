@@ -1,0 +1,10 @@
+class: spellblade
+cost: 3
+description:
+  - Draw 2 extra cards during your next draw step.
+name: Lengthy Novel
+rarity: common
+types:
+  - item
+uuid: c2521b5b-a2ae-42f8-bef8-df89a982caa4
+version: 1

@@ -1,0 +1,10 @@
+class: spellblade
+cost: 2
+description:
+  - You may see how much HP all enemies have remaining.
+name: Monster Manual
+rarity: common
+types:
+  - equipment
+uuid: d4ed001c-99b8-4947-9ce0-cd1e8465df25
+version: 1

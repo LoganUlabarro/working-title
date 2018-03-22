@@ -2,11 +2,12 @@ class: fighter
 cost: 4
 description:
   - Range 2.
-  - All units at range 2 are pulled into the tile they are closest to adjacent to you if able.
+  - All units at range 2 are pulled into the tile they are closest to adjacent to
+    you if able.
 name: Cyclonic Rift
 rarity: common
 types:
   - item
   - react
-uuid: b24f587e-467e-420e-b9b4-d957f2484ec3
+uuid: efd74ca2-aec3-4ae2-a27f-fb494ec21e58
 version: 1

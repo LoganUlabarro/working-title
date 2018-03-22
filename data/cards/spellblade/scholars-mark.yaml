@@ -1,0 +1,11 @@
+class: spellblade
+cost: 3
+description:
+  - Deal 2 damage to an adjacent unit.
+  - If you would deal damage to the same unit agian next turn, you may draw 2 cards.
+name: Scholar's Mark
+rarity: common
+types:
+  - attack-adaptive
+uuid: e2d7c1b3-63cd-45dd-bb5b-625d430f51f7
+version: 1

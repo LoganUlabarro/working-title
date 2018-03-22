@@ -2,10 +2,11 @@ class: druid
 cost: 3
 description:
   - Deal 2 damage to an adjacent unit.
-  - Reveal the top two cards in your Inventory. Put one into your Discard Pile and one back on top of your Inventory.
+  - Reveal the top two cards in your Inventory. Put one into your Discard Pile and
+    one back on top of your Inventory.
 name: Talon Strike
 rarity: common
 types:
   - attack-physical
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: 6afd629b-7c18-4014-bd7b-acf2ba3fe5b3
 version: 1

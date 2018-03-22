@@ -1,11 +1,12 @@
 class: generic
 cost: 2
 description:
-  - If an adjacent enemy attempts to move, deal 2 true damage to them and cancel their move.
+  - If an adjacent enemy attempts to move, deal 2 true damage to them and cancel their
+    move.
 name: Bear Trap
 rarity: common
 types:
   - item
   - react
-uuid: 6f1d3f0d-d24a-4667-a858-92bc8b15a108
+uuid: a08a0b8d-f27e-4e8e-92e2-5bb62a5a0edc
 version: 1
