@@ -3,7 +3,7 @@ import cmd
 from pathlib import Path
 
 from wt.io import yamlr, load_cards
-from wt.core import prep_and_draw_cards, prep_cards
+from wt.core import prep_and_draw_cards, prep_cards, draw_cards
 
 
 def _load_cfg(cfgpath):
@@ -40,13 +40,26 @@ class WtShell(cmd.Cmd):
         self.names.extend(names)
         self.classes.extend(classes)
 
+    def do_shop(self, ncards):
+        """Draw ncards randomly with no consideration for class or type.
+
+        Parameters
+        ----------
+        ncards : `int`
+            number of cards to draw
+
+        """
+        cards = draw_cards(self.cards, int(ncards))
+        for card in cards:
+            print(card['name'])
+
     def do_draw(self, line):
         """Draw ncards for player.
 
         Parameters
         ----------
         line : `str`
-            (player, ncards)
+            (player, ncards, types)
 
         """
         types = None
